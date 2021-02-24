@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 export default function Home() {
-  function Countdown(id, deadline) {
+  function Countdown (id, deadline) {
 
     this.deadline = deadline;
     this.id = id;

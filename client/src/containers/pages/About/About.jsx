@@ -11,7 +11,7 @@ const About = () => {
           <div className="row">
             <section className="col-sm-12">
               <h2 id="about-title">Retro Luxe is the best place to make your dream come true</h2>
-              <h4 className="border" id="about-desc">
+              <h4 className="border" id="about-description">
                 Hello.{" "}
               </h4>
             </section>

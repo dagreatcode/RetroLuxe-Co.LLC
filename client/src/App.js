@@ -35,7 +35,6 @@ function App() {
         <div>
           <Switch>
             <Route exact path="/RetroLuxe-Co.LLC" component={Home} />
-            <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/category" component={Category} />
             <Route exact path="/fqa" component={FQA} />
@@ -44,6 +43,7 @@ function App() {
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/customer" component={Customer} />
             <Route exact path="/intro" component={Intro} />
+            <Route exact path="/" component={Home} />
           </Switch>
         </div>
       </Router>

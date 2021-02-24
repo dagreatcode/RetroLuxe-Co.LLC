@@ -6,7 +6,6 @@ import Navbar from "../../../components/Navbar/Navbar";
 const About = () => {
   return (
     <div>
-      <Navbar />
       <main className="content">
         <div className="container">
           <div className="row">
@@ -22,3 +21,5 @@ const About = () => {
     </div>
   );
 };
+
+export default About;

@@ -11,7 +11,13 @@ import Category from "./containers/pages/Category/Category";
 import Contact from "./containers/pages/Contact/Contact";
 import Customer from "./containers/pages/Customer/Customer";
 import FQA from "./containers/pages/FAQ/FAQ";
+import Wishlist from "./containers/pages/Wishlist/Wishlist";
+import Privacy from "./containers/pages/Privacy/Privacy";
+import Detail from "./containers/pages/Detail/Detail";
+import Cart from "./containers/pages/Cart/Cart";
+import Checkout from "./containers/pages/Checkout/Checkout";
 import Intro from "./containers/pages/Intro/Intro";
+
 
 
 
@@ -43,6 +49,11 @@ function App() {
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/customer" component={Customer} />
             <Route exact path="/intro" component={Intro} />
+            <Route exact path="/wishlist" component={Wishlist} />
+            <Route exact path="/privacy" component={Privacy} />
+            <Route exact path="/detail" component={Detail} />
+            <Route exact path="/cart" component={Cart} />
+            <Route exact path="/checkout" component={Checkout} />
             <Route exact path="/" component={Home} />
           </Switch>
         </div>

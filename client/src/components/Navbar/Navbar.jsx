@@ -32,19 +32,19 @@ const Navbar = () => {
                 </NavLink>{" "}
               </li>
               <li className="nav-item">
-              <NavLink to="/fqa" className="nav-link">
-                FQA
-              </NavLink>
+                <NavLink to="/fqa" className="nav-link">
+                  FQA
+                </NavLink>
               </li>
               <li className="nav-item">
-                    <NavLink to="/blog" className="nav-link">
-                Blog
-              </NavLink>
+                <NavLink to="/blog" className="nav-link">
+                  Blog
+                </NavLink>
               </li>
               <li className="nav-item">
-              <NavLink to="/contact" className="nav-link">
-                Contact
-              </NavLink>
+                <NavLink to="/contact" className="nav-link">
+                  Contact
+                </NavLink>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
@@ -94,6 +94,12 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
+            <NavLink to="/wishlist" className="nav-link">
+              Wishlist
+            </NavLink>
+            <NavLink to="/cart" className="nav-link">
+              Cart
+            </NavLink>
             <form className="d-flex">
               <input
                 className="form-control me-2"

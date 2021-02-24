@@ -1,8 +1,13 @@
-import React, { Component } from "react";
+import React, { Component, useEffect, useState } from "react";
 
-export default function Countdown() {
-  function Countdown (id, deadline) {
+function Countdown() {
+  const [countdown, setCountdown] = useState([]);
+  // const history = useHistory();
+  // const [active, setActive] = useState(true);
 
+  useEffect(() => {}, []);
+
+  function Countdown(id, deadline) {
     this.deadline = deadline;
     this.id = id;
 
@@ -11,43 +16,43 @@ export default function Countdown() {
     self.clock = document.getElementById(self.id);
 
     if (self.clock !== null) {
-        self.daysSpan = self.clock.querySelector('.days');
-        self.hoursSpan = self.clock.querySelector('.hours');
-        self.minutesSpan = self.clock.querySelector('.minutes');
-        self.secondsSpan = self.clock.querySelector('.seconds');
+      self.daysSpan = self.clock.querySelector(".days");
+      self.hoursSpan = self.clock.querySelector(".hours");
+      self.minutesSpan = self.clock.querySelector(".minutes");
+      self.secondsSpan = self.clock.querySelector(".seconds");
 
-        updateClock();
-        var timeinterval = setInterval(updateClock, 1000);
+      updateClock();
+      var timeinterval = setInterval(updateClock, 1000);
     }
 
     function updateClock() {
-        var t = getTimeRemaining(self.deadline);
+      var t = getTimeRemaining(self.deadline);
 
-        self.daysSpan.innerHTML = t.days;
-        self.hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-        self.minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-        self.secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+      self.daysSpan.innerHTML = t.days;
+      self.hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
+      self.minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
+      self.secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
 
-        if (t.total <= 0) {
-            clearInterval(timeinterval);
-        }
+      if (t.total <= 0) {
+        clearInterval(timeinterval);
+      }
     }
 
     function getTimeRemaining(endtime) {
-        var t = Date.parse(endtime) - Date.parse(new Date());
-        var seconds = Math.floor((t / 1000) % 60);
-        var minutes = Math.floor((t / 1000 / 60) % 60);
-        var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-        var days = Math.floor(t / (1000 * 60 * 60 * 24));
-        return {
-            'total': t,
-            'days': days,
-            'hours': hours,
-            'minutes': minutes,
-            'seconds': seconds
-        };
+      var t = Date.parse(endtime) - Date.parse(new Date());
+      var seconds = Math.floor((t / 1000) % 60);
+      var minutes = Math.floor((t / 1000 / 60) % 60);
+      var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+      var days = Math.floor(t / (1000 * 60 * 60 * 24));
+      return {
+        total: t,
+        days: days,
+        hours: hours,
+        minutes: minutes,
+        seconds: seconds,
+      };
     }
-}
+  }
   return (
     <div>
       <div>
@@ -73,5 +78,6 @@ export default function Countdown() {
         </div>
       </div>
     </div>
-  )
+  );
 }
+export default Countdown;

@@ -1,7 +1,6 @@
 import React from "react";
-// import "./styles.css";
 import AliceCarousel from "react-alice-carousel";
-import "./Carousel.css"
+import "./Carousel.css";
 import "react-alice-carousel/lib/alice-carousel.css";
 import image1 from "../../img/photo/home-1.jpg";
 import image2 from "../../img/photo/home-2.jpg";

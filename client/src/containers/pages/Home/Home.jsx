@@ -11,6 +11,7 @@ class Home extends Component {
     return (
       <Router>
         <Carousel />
+        <h1>Welcome To Retro Luxe & Co. LLC.</h1>
         <div className="bg-gray-100 position-relative">
           <div className="container py-6">
             <div className="row">
@@ -31,7 +32,6 @@ class Home extends Component {
           </div>
         </div>
         <div>
-          <h1>Welcome To Retro Luxe & Co. LLC.</h1>
         </div>
         <Countdown />
       </Router>

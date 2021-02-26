@@ -17,7 +17,6 @@ import img20 from "../../../img/product/0915494643_1_1_1.jpg";
 import img21 from "../../../img/product/0931168712_1_1_1.jpg";
 import img22 from "../../../img/product/0949168513_1_1_1.jpg";
 
-
 class Home extends Component {
   render() {
     return (
@@ -102,6 +101,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        <div className="container py-6">
         <div className="position-relative">
           <div className="row">
             <div className="col-sm-2 md-5 md-sm-0">
@@ -160,37 +160,62 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="row">
+          <div className="row">
           <div className="col-sm-2 md-5 md-sm-0">
             <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-              <img className="card-img img-scale" alt="Card image" src={img17} />
+              <img
+                className="card-img img-scale"
+                alt="Card image"
+                src={img17}
+              />
             </div>
           </div>
           <div className="col-sm-2 md-5 md-sm-0">
             <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-              <img className="card-img img-scale" alt="Card image" src={img18} />
+              <img
+                className="card-img img-scale"
+                alt="Card image"
+                src={img18}
+              />
             </div>
           </div>
           <div className="col-sm-2 md-5 md-sm-0">
             <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-              <img className="card-img img-scale" alt="Card image" src={img19} />
+              <img
+                className="card-img img-scale"
+                alt="Card image"
+                src={img19}
+              />
             </div>
           </div>
           <div className="col-sm-2 md-5 md-sm-0">
             <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-              <img className="card-img img-scale" alt="Card image" src={img20} />
+              <img
+                className="card-img img-scale"
+                alt="Card image"
+                src={img20}
+              />
             </div>
           </div>
           <div className="col-sm-2 md-5 md-sm-0">
             <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-              <img className="card-img img-scale" alt="Card image" src={img21} />
+              <img
+                className="card-img img-scale"
+                alt="Card image"
+                src={img21}
+              />
             </div>
           </div>
           <div className="col-sm-2 md-5 md-sm-0">
             <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-              <img className="card-img img-scale" alt="Card image" src={img22} />
+              <img
+                className="card-img img-scale"
+                alt="Card image"
+                src={img22}
+              />
             </div>
           </div>
+        </div>
         </div>
         <div></div>
         <Countdown />

@@ -101,6 +101,13 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        <h1>New Arrivals</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
+          dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
+          recusandae odit laudantium?
+        </p>
         <div className="position-relative">
           <div className="container py-6">
             <div className="row">

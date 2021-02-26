@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Countdown from "../Countdown/Countdown";
 import { BrowserRouter as Router } from "react-router-dom";
 import Carousel from "../../ImgCarousel/Carousel";
+import Footer from "../../../components/Footer/Footer";
 import img from "../../../img/product/category-men.jpg";
 import img2 from "../../../img/product/category-women.jpg";
 import img10 from "../../../img/product/0027211800_1_2_1.jpg";
@@ -102,7 +103,7 @@ class Home extends Component {
           </div>
         </div>
         <h1>New Arrivals</h1>
-        <p>
+        <p className="container">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
           natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
           dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
@@ -225,8 +226,32 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div></div>
+        <br></br>
+
         <Countdown />
+        <div className="container">
+          <h4>Our History</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
+          dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
+          recusandae odit laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
+          dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
+          recusandae odit laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
+          dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
+          recusandae odit laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
+          dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
+          recusandae odit laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
+          dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
+          recusandae odit laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
+          dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
+          recusandae odit laudantium? </p>
+        </div>
+        <Footer/>
       </Router>
     );
   }

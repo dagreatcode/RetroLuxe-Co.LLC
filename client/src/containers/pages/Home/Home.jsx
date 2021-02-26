@@ -4,6 +4,19 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Carousel from "../../ImgCarousel/Carousel";
 import img from "../../../img/product/category-men.jpg";
 import img2 from "../../../img/product/category-women.jpg";
+import img10 from "../../../img/product/0027211800_1_2_1.jpg";
+import img12 from "../../../img/product/0029352433_1_1_1.jpg";
+import img13 from "../../../img/product/0144074800_1_1_1.jpg";
+import img14 from "../../../img/product/0364326148_1_1_1.jpg";
+import img15 from "../../../img/product/0364326800_1_1_1.jpg";
+import img16 from "../../../img/product/0364326800_2_1_1.jpg";
+import img17 from "../../../img/product/0365115800_1_2_1.jpg";
+import img18 from "../../../img/product/0693492802_1_1_1.jpg";
+import img19 from "../../../img/product/0907168607_1_1_1.jpg";
+import img20 from "../../../img/product/0915494643_1_1_1.jpg";
+import img21 from "../../../img/product/0931168712_1_1_1.jpg";
+import img22 from "../../../img/product/0949168513_1_1_1.jpg";
+
 
 class Home extends Component {
   render() {
@@ -86,6 +99,96 @@ class Home extends Component {
                   <use xlinkHref="#blob-shape"></use>
                 </svg>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="position-relative">
+          <div className="row">
+            <div className="col-sm-2 md-5 md-sm-0">
+              <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <img
+                  className="card-img img-scale"
+                  alt="Card image"
+                  src={img10}
+                />
+              </div>
+            </div>
+            <div className="col-sm-2 md-5 md-sm-0">
+              <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <img
+                  className="card-img img-scale"
+                  alt="Card image"
+                  src={img12}
+                />
+              </div>
+            </div>
+            <div className="col-sm-2 md-5 md-sm-0">
+              <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <img
+                  className="card-img img-scale"
+                  alt="Card image"
+                  src={img13}
+                />
+              </div>
+            </div>
+            <div className="col-sm-2 md-5 md-sm-0">
+              <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <img
+                  className="card-img img-scale"
+                  alt="Card image"
+                  src={img14}
+                />
+              </div>
+            </div>
+            <div className="col-sm-2 md-5 md-sm-0">
+              <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <img
+                  className="card-img img-scale"
+                  alt="Card image"
+                  src={img15}
+                />
+              </div>
+            </div>
+            <div className="col-sm-2 md-5 md-sm-0">
+              <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <img
+                  className="card-img img-scale"
+                  alt="Card image"
+                  src={img16}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-2 md-5 md-sm-0">
+            <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+              <img className="card-img img-scale" alt="Card image" src={img17} />
+            </div>
+          </div>
+          <div className="col-sm-2 md-5 md-sm-0">
+            <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+              <img className="card-img img-scale" alt="Card image" src={img18} />
+            </div>
+          </div>
+          <div className="col-sm-2 md-5 md-sm-0">
+            <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+              <img className="card-img img-scale" alt="Card image" src={img19} />
+            </div>
+          </div>
+          <div className="col-sm-2 md-5 md-sm-0">
+            <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+              <img className="card-img img-scale" alt="Card image" src={img20} />
+            </div>
+          </div>
+          <div className="col-sm-2 md-5 md-sm-0">
+            <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+              <img className="card-img img-scale" alt="Card image" src={img21} />
+            </div>
+          </div>
+          <div className="col-sm-2 md-5 md-sm-0">
+            <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+              <img className="card-img img-scale" alt="Card image" src={img22} />
             </div>
           </div>
         </div>

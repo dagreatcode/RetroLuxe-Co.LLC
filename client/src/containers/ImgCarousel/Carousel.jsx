@@ -2,7 +2,6 @@ import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "./Carousel.css";
 import "react-alice-carousel/lib/alice-carousel.css";
-// import "react-alice-carousel/lib/scss/alice-carousel.scss";
 import image1 from "../../img/photo/home-1.jpg";
 import image2 from "../../img/photo/home-2.jpg";
 import image4 from "../../img/photo/home-3-pastel.jpg";

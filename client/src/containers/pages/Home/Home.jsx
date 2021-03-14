@@ -6,19 +6,45 @@ import Footer from "../../../components/Footer/Footer";
 import img from "../../../img/product/category-men.jpg";
 import img2 from "../../../img/product/category-women.jpg";
 import img10 from "../../../img/product/0027211800_1_2_1.jpg";
+import img101 from "../../../img/product/0027211800_2_1_1.jpg";
 import img12 from "../../../img/product/0029352433_1_1_1.jpg";
+import img102 from "../../../img/product/0029352433_2_1_1.jpg";
 import img13 from "../../../img/product/0144074800_1_1_1.jpg";
+import img103 from "../../../img/product/0144074800_2_1_1.jpg";
 import img14 from "../../../img/product/0364326148_1_1_1.jpg";
+import img104 from "../../../img/product/0364326148_2_1_1.jpg";
 import img15 from "../../../img/product/0364326800_1_1_1.jpg";
-import img16 from "../../../img/product/0364326800_2_1_1.jpg";
-import img17 from "../../../img/product/0365115800_1_2_1.jpg";
-import img18 from "../../../img/product/0693492802_1_1_1.jpg";
-import img19 from "../../../img/product/0907168607_1_1_1.jpg";
-import img20 from "../../../img/product/0915494643_1_1_1.jpg";
-import img21 from "../../../img/product/0931168712_1_1_1.jpg";
-import img22 from "../../../img/product/0949168513_1_1_1.jpg";
+import img105 from "../../../img/product/0364326800_2_1_1.jpg";
+import img16 from "../../../img/product/0365115800_1_2_1.jpg";
+import img106 from "../../../img/product/0365115800_2_1_1.jpg";
+import img17 from "../../../img/product/0907168607_1_1_1.jpg";
+import img107 from "../../../img/product/0907168607_2_1_1.jpg";
+import img18 from "../../../img/product/0915494643_1_1_1.jpg";
+import img108 from "../../../img/product/0915494643_2_1_1.jpg";
+import img19 from "../../../img/product/0931168712_1_1_1.jpg";
+import img109 from "../../../img/product/0931168712_2_1_1.jpg";
+import img20 from "../../../img/product/0949168513_1_1_1.jpg";
+import img200 from "../../../img/product/0949168513_2_1_1.jpg";
+import img21 from "../../../img/product/0950354513_1_1_1.jpg";
+import img201 from "../../../img/product/0950354513_2_1_1.jpg";
+import img22 from "../../../img/product/0987188250_1_1_1.jpg";
+import img202 from "../../../img/product/0987188250_2_1_1.jpg";
 
 class Home extends Component {
+  state = {
+    img: img10,
+    img2: img12,
+    img3: img13,
+    img4: img14,
+    img5: img15,
+    img6: img16,
+    img7: img17,
+    img8: img18,
+    img9: img19,
+    img10: img20,
+    img11: img21,
+    img12: img22
+  };
   render() {
     return (
       <Router>
@@ -115,54 +141,102 @@ class Home extends Component {
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
-                    className="card-img img-scale"
-                    alt="Card image"
-                    src={img10}
+                    src={this.state.img}
+                    onMouseEnter={() => {
+                      this.setState({
+                        img: img101,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img: img10,
+                      });
+                    }}
                   />
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="card-img img-scale"
-                    alt="Card image"
-                    src={img12}
+                <img
+                    src={this.state.img2}
+                    onMouseEnter={() => {
+                      this.setState({
+                        img2: img102,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img2: img12,
+                      });
+                    }}
                   />
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="card-img img-scale"
-                    alt="Card image"
-                    src={img13}
+                <img
+                    src={this.state.img3}
+                    onMouseEnter={() => {
+                      this.setState({
+                        img3: img103,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img3: img13,
+                      });
+                    }}
                   />
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="card-img img-scale"
-                    alt="Card image"
-                    src={img14}
+                <img
+                    src={this.state.img4}
+                    onMouseEnter={() => {
+                      this.setState({
+                        img4: img104,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img4: img14,
+                      });
+                    }}
                   />
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="card-img img-scale"
-                    alt="Card image"
-                    src={img15}
+                <img
+                    src={this.state.img5}
+                    onMouseEnter={() => {
+                      this.setState({
+                        img5: img105,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img5: img15,
+                      });
+                    }}
                   />
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="card-img img-scale"
-                    alt="Card image"
-                    src={img16}
+                <img
+                    src={this.state.img6}
+                    onMouseEnter={() => {
+                      this.setState({
+                        img6: img106,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img6: img16,
+                      });
+                    }}
                   />
                 </div>
               </div>
@@ -171,55 +245,103 @@ class Home extends Component {
             <div className="row">
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="card-img img-scale"
-                    alt="Card image"
-                    src={img17}
+                <img
+                    src={this.state.img7}
+                    onMouseEnter={() => {
+                      this.setState({
+                        img7: img107,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img7: img17,
+                      });
+                    }}
                   />
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="card-img img-scale"
-                    alt="Card image"
-                    src={img18}
+                <img
+                    src={this.state.img8}
+                    onMouseEnter={() => {
+                      this.setState({
+                        img8: img108,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img8: img18,
+                      });
+                    }}
                   />
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="card-img img-scale"
-                    alt="Card image"
-                    src={img19}
+                <img
+                    src={this.state.img9}
+                    onMouseEnter={() => {
+                      this.setState({
+                        img9: img109,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img9: img19,
+                      });
+                    }}
                   />
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="card-img img-scale"
-                    alt="Card image"
-                    src={img20}
+                <img
+                    src={this.state.img10}
+                    onMouseEnter={() => {
+                      this.setState({
+                        img10: img201,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img10: img20,
+                      });
+                    }}
                   />
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="card-img img-scale"
-                    alt="Card image"
-                    src={img21}
+                <img
+                    src={this.state.img11}
+                    onMouseEnter={() => {
+                      this.setState({
+                        img11: img201,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img11: img21,
+                      });
+                    }}
                   />
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="card-img img-scale"
-                    alt="Card image"
-                    src={img22}
+                <img
+                    src={this.state.img12}
+                    onMouseEnter={() => {
+                      this.setState({
+                        img12: img202,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img12: img22,
+                      });
+                    }}
                   />
                 </div>
               </div>
@@ -231,27 +353,31 @@ class Home extends Component {
         <Countdown />
         <div className="container">
           <h4>Our History</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
-          dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
-          recusandae odit laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
-          dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
-          recusandae odit laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
-          dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
-          recusandae odit laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
-          dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
-          recusandae odit laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
-          dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
-          recusandae odit laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
-          dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
-          recusandae odit laudantium? </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            natus nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
+            dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
+            recusandae odit laudantium? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Explicabo natus nobis vel, quidem pariatur fuga
+            excepturi ipsum quisquam nulla dolorum vitae deserunt nostrum
+            incidunt cumque, quo voluptates recusandae odit laudantium? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Explicabo natus
+            nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
+            dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
+            recusandae odit laudantium? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Explicabo natus nobis vel, quidem pariatur fuga
+            excepturi ipsum quisquam nulla dolorum vitae deserunt nostrum
+            incidunt cumque, quo voluptates recusandae odit laudantium? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Explicabo natus
+            nobis vel, quidem pariatur fuga excepturi ipsum quisquam nulla
+            dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
+            recusandae odit laudantium? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Explicabo natus nobis vel, quidem pariatur fuga
+            excepturi ipsum quisquam nulla dolorum vitae deserunt nostrum
+            incidunt cumque, quo voluptates recusandae odit laudantium?{" "}
+          </p>
         </div>
-        <Footer/>
+        <Footer />
       </Router>
     );
   }

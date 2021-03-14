@@ -43,7 +43,7 @@ class Home extends Component {
     img9: img19,
     img10: img20,
     img11: img21,
-    img12: img22
+    img12: img22,
   };
   render() {
     return (
@@ -153,11 +153,16 @@ class Home extends Component {
                       });
                     }}
                   />
+                  <div class="product-badge badge badge-secondary">Fresh</div>
+                  <div class="position-relative">
+              <h3 class="text-base mb-1"><a class="text-dark" href="detail-1.html">White Tee</a></h3><span class="text-gray-500 text-sm">$40.00</span>
+              <div class="product-stars text-xs"><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-muted"></i><i class="fa fa-star text-muted"></i></div>
+            </div>
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                <img
+                  <img
                     src={this.state.img2}
                     onMouseEnter={() => {
                       this.setState({
@@ -174,7 +179,7 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                <img
+                  <img
                     src={this.state.img3}
                     onMouseEnter={() => {
                       this.setState({
@@ -191,7 +196,7 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                <img
+                  <img
                     src={this.state.img4}
                     onMouseEnter={() => {
                       this.setState({
@@ -208,7 +213,7 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                <img
+                  <img
                     src={this.state.img5}
                     onMouseEnter={() => {
                       this.setState({
@@ -225,7 +230,7 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                <img
+                  <img
                     src={this.state.img6}
                     onMouseEnter={() => {
                       this.setState({
@@ -239,13 +244,28 @@ class Home extends Component {
                     }}
                   />
                 </div>
+                <div class="position-relative">
+                  <h3 class="text-base mb-1">
+                    <a class="text-dark" href="detail-1.html">
+                      Black blouse
+                    </a>
+                  </h3>
+                  <span class="text-gray-500 text-sm">$40.00</span>
+                  <div class="product-stars text-xs">
+                    <i class="fa fa-star text-primary"></i>
+                    <i class="fa fa-star text-primary"></i>
+                    <i class="fa fa-star text-primary"></i>
+                    <i class="fa fa-star text-muted"></i>
+                    <i class="fa fa-star text-muted"></i>
+                  </div>
+                </div>
               </div>
             </div>
 
             <div className="row">
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                <img
+                  <img
                     src={this.state.img7}
                     onMouseEnter={() => {
                       this.setState({
@@ -258,11 +278,12 @@ class Home extends Component {
                       });
                     }}
                   />
+                               <div class="product-badge badge badge-primary">Sale</div><a href="./sale"></a>
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                <img
+                  <img
                     src={this.state.img8}
                     onMouseEnter={() => {
                       this.setState({
@@ -279,7 +300,7 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                <img
+                  <img
                     src={this.state.img9}
                     onMouseEnter={() => {
                       this.setState({
@@ -296,7 +317,7 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                <img
+                  <img
                     src={this.state.img10}
                     onMouseEnter={() => {
                       this.setState({
@@ -313,7 +334,7 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                <img
+                  <img
                     src={this.state.img11}
                     onMouseEnter={() => {
                       this.setState({
@@ -330,7 +351,7 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                <img
+                  <img
                     src={this.state.img12}
                     onMouseEnter={() => {
                       this.setState({

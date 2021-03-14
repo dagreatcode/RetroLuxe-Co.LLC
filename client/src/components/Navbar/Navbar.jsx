@@ -23,7 +23,7 @@ const Navbar = () => {
                 </ul>
               </div>
               <div className="col-sm-6 col-md-4 text-left text-md-center">
-                <p className="mb-0">Custom Outfit Deals</p>
+                <p className="mb-0">Custom Outfits</p>
               </div>
               <div className="col-sm-6 col-md-4 d-none d-sm-flex justify-content-end">
                 <div className="dropdown border-right px-3">

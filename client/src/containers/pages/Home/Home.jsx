@@ -49,12 +49,15 @@ class Home extends Component {
     return (
       <Router>
         <Carousel />
+        <svg className="blob">
+                  <use xlinkHref="#blob-shape-4"></use>
+                </svg>
         <h1>Welcome To Retro Luxe & Co. LLC.</h1>
         <div className="bg-gray-100 position-relative">
           <div className="container py-6">
             <div className="row">
               <div className="col-sm-6 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     className="card-img img-scale"
                     alt="Card image"
@@ -63,14 +66,14 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col-sm-6 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     className="card-img img-scale"
                     alt="Card image"
                     src={img2}
                   />
                 </div>
-                <svg width="0" height="0" class="hidden">
+                <svg width="0" height="0" className="hidden">
                   <symbol
                     viewBox="0 0 600 600"
                     xmlns="http://www.w3.org/2000/svg"
@@ -112,22 +115,25 @@ class Home extends Component {
                     ></path>
                   </symbol>
                 </svg>
-                <svg class="blob">
+                {/* <svg className="blob">
                   <use xlinkHref="#blob-shape-4"></use>
                 </svg>
-                <svg class="blob">
+                <svg className="blob">
                   <use xlinkHref="#blob-shape-3"></use>
                 </svg>
-                <svg class="blob">
+                <svg className="blob">
                   <use xlinkHref="#blob-shape-2"></use>
                 </svg>
-                <svg class="blob">
+                <svg className="blob">
                   <use xlinkHref="#blob-shape"></use>
-                </svg>
+                </svg> */}
               </div>
             </div>
           </div>
         </div>
+        <svg className="blob">
+                  <use xlinkHref="#blob-shape-3"></use>
+                </svg>
         <h1>New Arrivals</h1>
         <p className="container">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
@@ -139,7 +145,7 @@ class Home extends Component {
           <div className="container py-6">
             <div className="row">
               <div className="col-sm-2 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     src={this.state.img}
                     onMouseEnter={() => {
@@ -153,15 +159,27 @@ class Home extends Component {
                       });
                     }}
                   />
-                  <div class="product-badge badge badge-secondary">Fresh</div>
-                  <div class="position-relative">
-              <h3 class="text-base mb-1"><a class="text-dark" href="detail-1.html">White Tee</a></h3><span class="text-gray-500 text-sm">$40.00</span>
-              <div class="product-stars text-xs"><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-muted"></i><i class="fa fa-star text-muted"></i></div>
-            </div>
+                  <div className="product-badge badge badge-secondary">
+                    Fresh
+                  </div>
+                  <div className="position-relative">
+                    <div className="product-stars text-xs">
+                      <i className="fa fa-star small text-primary"></i>
+                      <i className="fa fa-star small text-primary"></i>
+                      <i className="fa fa-star small text-primary"></i>
+                      <i className="fa fa-star small text-muted"></i>
+                      <i className="fa fa-star small text-muted"></i>
+                    </div>
+                    <h3 className="text-base mb-1">
+                      <a className="text-dark" href="detail-1.html">
+                        <h6>White Tee</h6>
+                      </a>
+                    </h3>
+                  </div>
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     src={this.state.img2}
                     onMouseEnter={() => {
@@ -178,7 +196,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     src={this.state.img3}
                     onMouseEnter={() => {
@@ -195,7 +213,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     src={this.state.img4}
                     onMouseEnter={() => {
@@ -212,7 +230,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     src={this.state.img5}
                     onMouseEnter={() => {
@@ -229,7 +247,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     src={this.state.img6}
                     onMouseEnter={() => {
@@ -244,27 +262,27 @@ class Home extends Component {
                     }}
                   />
                 </div>
-                <div class="position-relative">
-                  <h3 class="text-base mb-1">
-                    <a class="text-dark" href="detail-1.html">
-                      Black blouse
+                <div className="position-relative">
+                  <h3 className="text-base mb-1">
+                    <a className="text-dark" href="detail-1.html">
+                      <h6> Black blouse</h6>
                     </a>
                   </h3>
-                  <span class="text-gray-500 text-sm">$40.00</span>
-                  <div class="product-stars text-xs">
-                    <i class="fa fa-star text-primary"></i>
-                    <i class="fa fa-star text-primary"></i>
-                    <i class="fa fa-star text-primary"></i>
-                    <i class="fa fa-star text-muted"></i>
-                    <i class="fa fa-star text-muted"></i>
+                  <span className="text-gray-500 text-sm">$40.00</span>
+                  <div className="product-stars text-xs">
+                    <i className="fa fa-star small text-primary"></i>
+                    <i className="fa fa-star small text-primary"></i>
+                    <i className="fa fa-star small text-primary"></i>
+                    <i className="fa fa-star small text-muted"></i>
+                    <i className="fa fa-star small text-muted"></i>
                   </div>
                 </div>
               </div>
             </div>
-
+            <hr className="divider" />
             <div className="row">
               <div className="col-sm-2 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     src={this.state.img7}
                     onMouseEnter={() => {
@@ -278,11 +296,12 @@ class Home extends Component {
                       });
                     }}
                   />
-                               <div class="product-badge badge badge-primary">Sale</div><a href="./sale"></a>
+                  <div className="product-badge badge badge-primary">Sale</div>
+                  <a href="./sale"></a>
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     src={this.state.img8}
                     onMouseEnter={() => {
@@ -299,7 +318,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     src={this.state.img9}
                     onMouseEnter={() => {
@@ -316,7 +335,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     src={this.state.img10}
                     onMouseEnter={() => {
@@ -333,7 +352,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     src={this.state.img11}
                     onMouseEnter={() => {
@@ -350,7 +369,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
-                <div class="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
                   <img
                     src={this.state.img12}
                     onMouseEnter={() => {
@@ -370,7 +389,9 @@ class Home extends Component {
           </div>
         </div>
         <br></br>
-
+        <svg className="blob">
+                  <use xlinkHref="#blob-shape-2"></use>
+                </svg>
         <Countdown />
         <div className="container">
           <h4>Our History</h4>
@@ -398,6 +419,9 @@ class Home extends Component {
             incidunt cumque, quo voluptates recusandae odit laudantium?{" "}
           </p>
         </div>
+        <svg className="blob">
+                  <use xlinkHref="#blob-shape"></use>
+                </svg>
         <Footer />
       </Router>
     );

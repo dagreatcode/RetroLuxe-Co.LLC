@@ -15,7 +15,7 @@ import image9 from "../../img/photo/blog.jpg";
 export default function Carousel() {
   return (
     <div>
-      <AliceCarousel autoPlay autoPlayInterval="2000" animationDuration="400">
+      <AliceCarousel autoPlay autoPlayInterval="2000" infinite="true" animationDuration="400">
         <img src={image1} className="sliderimg" alt="" />
         <img src={image2} className="sliderimg" alt="" />
         <img src={image4} className="sliderimg" alt="" />

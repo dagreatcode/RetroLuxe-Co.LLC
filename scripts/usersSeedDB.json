@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "kelly",
+      "image":
+        "../client/src/img/avatar-0.jpg",
+      "occupation": "manager",
+      "location": "Ellenwood"
+    },
+    {
+      "id": 2,
+      "name": "ashley",
+      "image":
+        "../client/src/img/avatar-1.jpg",
+      "occupation": "Restaurant Owner",
+      "location": "Decatur"
+    },
+    {
+      "id": 3,
+      "name": "mike",
+      "image":
+        "../client/src/img/avatar-2.jpg",
+      "occupation": "Cashier",
+      "location": "Bankhead"
+    }
+  ]

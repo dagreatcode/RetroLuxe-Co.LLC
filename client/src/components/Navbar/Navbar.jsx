@@ -46,11 +46,6 @@ const Navbar = () => {
                   Contact
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Link
-                </a>
-              </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -60,45 +55,67 @@ const Navbar = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Account
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
+                    <Link to="/login">Profile</Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
+                    <Link to="/blog">Blog</Link>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
+                    <Link to="/category">Category:</Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link disabled"
-                  href="#"
+                  className="nav-link"
+                  href="/intro"
                   tabindex="-1"
                   aria-disabled="true"
                 >
-                  Disabled
+                  Extras
                 </a>
               </li>
             </ul>
-            <NavLink to="/wishlist" className="nav-link">
-              Wishlist
+            <NavLink to="/wishlist" className="nav-item dropdown">
+            <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Wishlist
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <Link to="/cart">Items:</Link>
+                </li>
+              </ul>
             </NavLink>
-            <NavLink to="/cart" className="nav-link">
-              Cart
+            <NavLink to="/cart" className="nav-item dropdown">
+            <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cart
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <Link to="/cart">Items:</Link>
+                </li>
+              </ul>
             </NavLink>
             <form className="d-flex">
               <input
@@ -107,7 +124,7 @@ const Navbar = () => {
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button className="btn btn-outline-success" type="submit">
+              <button className="btn btn-outline-success" type="submit" name="search">
                 Search
               </button>
             </form>

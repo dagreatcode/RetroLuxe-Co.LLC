@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Countdown from "../Countdown/Countdown";
 import { BrowserRouter as Router } from "react-router-dom";
 import Carousel from "../../ImgCarousel/Carousel";
+import Menu from "../../../components/Menu/Menu";
 import Logo from "../../logoCarousel/Logo";
 import "./Home.css"
 import Footer from "../../../components/Footer/Footer";
@@ -50,6 +51,7 @@ class Home extends Component {
   render() {
     return (
       <Router>
+
         <Carousel />
         <svg className="blob">
           <use xlinkHref="#blob-shape-4"></use>

@@ -36,6 +36,12 @@ class Login extends Component {
               Login
             </button>
           </div>
+          <br/>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">
+              Guess Shop
+            </button>
+          </div>
         </form>
       </>
     );

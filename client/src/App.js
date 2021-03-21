@@ -41,7 +41,7 @@ function App() {
         <Navbar />
         <div>
           <Switch>
-            <Route exact path="/RetroLuxe-Co.LLC" component={Home} />
+            {/* <Route exact path="/RetroLuxe-Co.LLC" component={Home} /> */}
             <Route exact path="/about" component={About} />
             <Route exact path="/category" component={Category} />
             <Route exact path="/fqa" component={FQA} />

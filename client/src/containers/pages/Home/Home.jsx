@@ -71,6 +71,7 @@ class Home extends Component {
                     alt="Card image"
                     src={img}
                     to="/"
+                    alt="image"
                   ></img>
                 </div>
               </div>
@@ -83,6 +84,7 @@ class Home extends Component {
                     className="card-img img-scale"
                     alt="Card image"
                     src={img2}
+                    alt="image"
                   />
                 </div>
                 <svg width="0" height="0" className="hidden">
@@ -133,6 +135,7 @@ class Home extends Component {
                   <img
                     className="circle"
                     src={this.state.img}
+                    alt="image"
                     onMouseEnter={() => {
                       this.setState({
                         img: img101,
@@ -168,6 +171,7 @@ class Home extends Component {
                   <img
                     className="circle"
                     src={this.state.img2}
+                    alt="image"
                     onMouseEnter={() => {
                       this.setState({
                         img2: img102,
@@ -186,6 +190,7 @@ class Home extends Component {
                   <img
                     className="circle"
                     src={this.state.img3}
+                    alt="image"
                     onMouseEnter={() => {
                       this.setState({
                         img3: img103,
@@ -204,6 +209,7 @@ class Home extends Component {
                   <img
                     className="circle"
                     src={this.state.img4}
+                    alt="image"
                     onMouseEnter={() => {
                       this.setState({
                         img4: img104,
@@ -222,6 +228,7 @@ class Home extends Component {
                   <img
                     className="circle"
                     src={this.state.img5}
+                    alt="image"
                     onMouseEnter={() => {
                       this.setState({
                         img5: img105,
@@ -240,6 +247,7 @@ class Home extends Component {
                   <img
                     className="circle"
                     src={this.state.img6}
+                    alt="image"
                     onMouseEnter={() => {
                       this.setState({
                         img6: img106,
@@ -276,6 +284,7 @@ class Home extends Component {
                   <img
                     className="circle"
                     src={this.state.img7}
+                    alt="image"
                     onMouseEnter={() => {
                       this.setState({
                         img7: img107,
@@ -296,6 +305,7 @@ class Home extends Component {
                   <img
                     className="circle"
                     src={this.state.img8}
+                    alt="image"
                     onMouseEnter={() => {
                       this.setState({
                         img8: img108,
@@ -314,6 +324,7 @@ class Home extends Component {
                   <img
                     className="circle"
                     src={this.state.img9}
+                    alt="image"
                     onMouseEnter={() => {
                       this.setState({
                         img9: img109,
@@ -332,6 +343,7 @@ class Home extends Component {
                   <img
                     className="circle"
                     src={this.state.img10}
+                    alt="image"
                     onMouseEnter={() => {
                       this.setState({
                         img10: img200,
@@ -350,6 +362,7 @@ class Home extends Component {
                   <img
                     className="circle"
                     src={this.state.img11}
+                    alt="image"
                     onMouseEnter={() => {
                       this.setState({
                         img11: img201,
@@ -368,6 +381,7 @@ class Home extends Component {
                   <img
                     className="circle"
                     src={this.state.img12}
+                    alt="image"
                     onMouseEnter={() => {
                       this.setState({
                         img12: img202,

@@ -55,7 +55,8 @@ MongoDB:
 </br>
 JSONwebtoken:
 
-<img src ="" alt= "Database Schemas">
+I started off without react to use SQL. But using MongoDB in this case might be  better choice for the cause.
+![Database Schemas](./client/src/img/siteimg/erdiagram.png)
 
 ## Usage
 

@@ -5,7 +5,7 @@ class Contact extends Component {
     return (
       <div>
         <h1>Contact</h1>
-        <div className="mb-3">
+        <div className="container mb-3">
           <label htmlFor="exampleFormControlInput1" className="form-label">
             Email address
           </label>
@@ -16,7 +16,7 @@ class Contact extends Component {
             placeholder="name@example.com"
           />
         </div>
-        <div className="mb-3">
+        <div className="container mb-3">
           <label htmlFor="exampleFormControlTextarea1" className="form-label">
             Example textarea
           </label>

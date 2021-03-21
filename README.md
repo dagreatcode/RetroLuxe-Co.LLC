@@ -33,10 +33,6 @@ A full-stack MERN application utilizing MongoDB, Express, React, and NodeJS, the
 The app also had to be responsive.
 ![Database Schemas](./client/src/img/siteimg/p4.png)
 
-
-
-
-
 ## Description
 
 A Retro Clothing Website
@@ -51,20 +47,18 @@ Our user story is as follows:
 --SO THAT:
 
 One aspect of this project that makes it stand out is...
+
 ![Database Schemas](./client/src/img/siteimg/p1.png)
 
 ## Features
 
 Twilio:
 </br>
-AnimeJS:
-</br>
 MongoDB:
 </br>
-JSONwebtoken:
+JSON Web Token(JWT):
 
-I started off without react to use SQL. But using MongoDB in this case might be better choice for the cause.
-![Database Schemas](./client/src/img/siteimg/erdiagram.png)
+![Database Schemas](./client/src/img/siteimg/p5.png)
 
 ## Usage
 
@@ -72,9 +66,10 @@ The URL for this application will soon be [http://www.retroluxe.com].
 
 But for now, the Heroku link for this application is [https://retroluxesite.herokuapp.com/].
 
-To run this app the repo first must be cloned at Github on this link: [https://github.com/dagreatcode/RetroLuxe-Co.LLC].
+Show And Tell How To... Images of page and database:
 
-Show And Tell How To... Images of page and database
+I started off without react to use SQL. But using MongoDB in this case might be better choice for the cause.
+![Database Schemas](./client/src/img/siteimg/erdiagram.png)
 
 ## Contributing
 

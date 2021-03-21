@@ -2,6 +2,7 @@
   {
     "type": "Pants",
     "image": "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+    "gender": "Female",
     "description": "High Riders",
     "bin_location": 1
   }

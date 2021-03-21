@@ -7,7 +7,7 @@ class Login extends Component {
         <h1>Login</h1>
         <form className="container">
           <div className="mb-3 row">
-            <label for="exampleFormControlInput1" className="form-label">
+            <label htmlFor="exampleFormControlInput1" className="form-label">
               Email address
             </label>
             <div className="col-sm-12">
@@ -20,7 +20,7 @@ class Login extends Component {
             </div>
           </div>
           <div className="mb-3 row">
-            <label for="inputPassword" className="col-form-label">
+            <label htmlFor="inputPassword" className="col-form-label">
               Password
             </label>
             <div className="col-sm-12">
@@ -31,14 +31,14 @@ class Login extends Component {
               />
             </div>
           </div>
-          <div class="col-12">
-            <button class="btn btn-primary" type="submit">
+          <div className="col-12">
+            <button className="btn btn-primary" type="submit">
               Login
             </button>
           </div>
           <br/>
-          <div class="col-12">
-            <button class="btn btn-primary" type="submit">
+          <div className="col-12">
+            <button className="btn btn-primary" type="submit">
               Guess Shop
             </button>
           </div>

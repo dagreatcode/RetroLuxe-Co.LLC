@@ -30,13 +30,11 @@ router.get("/user", (a, b) => {
             })
             .catch((a) => {
               console.log(a),
-                b
-                  .status(500)
-                  .json({
-                    error: !0,
-                    data: null,
-                    message: "there has been an error.",
-                  });
+                b.status(500).json({
+                  error: !0,
+                  data: null,
+                  message: "there has been an error.",
+                });
             })
         : b
             .status(500)
@@ -75,13 +73,11 @@ router.get("/user", (a, b) => {
       })
       .catch((a) => {
         console.log(a),
-          b
-            .status(500)
-            .json({
-              error: !0,
-              data: null,
-              message: "Unable to update profile.",
-            });
+          b.status(500).json({
+            error: !0,
+            data: null,
+            message: "Unable to update profile.",
+          });
       });
   }),
   router.delete("/:id", (a, b) => {
@@ -96,13 +92,11 @@ router.get("/user", (a, b) => {
       })
       .catch((a) => {
         console.log(a),
-          b
-            .status(500)
-            .json({
-              error: !0,
-              data: null,
-              message: "Unable to delete profile.",
-            });
+          b.status(500).json({
+            error: !0,
+            data: null,
+            message: "Unable to delete profile.",
+          });
       });
   }),
   (module.exports = router);

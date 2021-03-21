@@ -120,6 +120,11 @@ const Navbar = () => {
                   Contact
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink to="/intro" className="nav-link">
+                  Intro
+                </NavLink>
+              </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -146,7 +151,7 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   className="nav-link"
                   href="/intro"
@@ -155,7 +160,7 @@ const Navbar = () => {
                 >
                   Extras
                 </a>
-              </li>
+              </li> */}
             </ul>
             <NavLink to="/wishlist" className="nav-item dropdown">
               <a

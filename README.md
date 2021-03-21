@@ -8,6 +8,7 @@ Retro Luxe &amp; Co. LLC
 </br>
 [![Website dagreatcode.github.io/RetroLuxe-Co.LLC/](https://img.shields.io/website-up-down-green-red/https/retroluxesite.herokuapp.com.svg)](https://retroluxesite.herokuapp.com/)
 </br>
+
 ## Table of Contents
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;[1)&nbsp;Introduction](#introduction)

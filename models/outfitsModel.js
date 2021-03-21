@@ -1,8 +1,10 @@
 const mongoose = require("mongoose"),
   Schema = mongoose.Schema,
   outfitsSchema = new Schema({
-    message_text: { type: String },
-    message_on: { type: Boolean },
+    type: { type: String },
+    image: { type: String },
+    description: { type: String },
+    bin_location: { type: String },
   }),
   outfits = mongoose.model("outfits", outfitsSchema);
 module.exports = outfits;

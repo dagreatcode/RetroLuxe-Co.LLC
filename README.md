@@ -1,22 +1,25 @@
 # RetroLuxe-Co.LLC
+
 Retro Luxe &amp; Co. LLC
-
+</br>
 [🎧 Website 🎧](https://retroluxesite.herokuapp.com/)
+</br>
 [🔭 Repo 🔭](https://github.com/dagreatcode/RetroLuxe-Co.LLC)
-
-
+</br>
 [![Website dagreatcode.github.io/RetroLuxe-Co.LLC/](https://img.shields.io/website-up-down-green-red/https/retroluxesite.herokuapp.com.svg)](https://retroluxesite.herokuapp.com/)
+</br>
 
 ## Table of Contents
+
 #### &nbsp;&nbsp;&nbsp;&nbsp;[1)&nbsp;Introduction](#introduction)
 #### &nbsp;&nbsp;&nbsp;&nbsp;[2)&nbsp;Description](#description)
 #### &nbsp;&nbsp;&nbsp;&nbsp;[3)&nbsp;Features](#features)
 #### &nbsp;&nbsp;&nbsp;&nbsp;[4)&nbsp;Usage](#usage)
 #### &nbsp;&nbsp;&nbsp;&nbsp;[5)&nbsp;Contributing](#contributing)
 #### &nbsp;&nbsp;&nbsp;&nbsp;[6)&nbsp;License](#license)
-#### &nbsp;&nbsp;&nbsp;&nbsp;[7)&nbsp;Questions](#questions)   
+#### &nbsp;&nbsp;&nbsp;&nbsp;[7)&nbsp;Questions](#questions)
 
-## Introduction 
+## Introduction
 
  A full-stack MERN application utilizing MongoDB, Express, React, and NodeJS, the four technologies that make up the stack.  This was to be accomplished while having a polished front-end/UI, a folder structure meeting the MVC paradigm, and incorporating good quality coding standards.  Additional requirements included:
     1)  Having both GET and POST routes for retrieving and adding new data.
@@ -67,8 +70,6 @@ Show And Tell How To... Images of page and database
 Retro Luxe Collaborators:
 
 Vincent Kendrick:  https://github.com/dagreatcode
-
-<br>  
 
 ## License
 

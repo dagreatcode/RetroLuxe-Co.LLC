@@ -17,6 +17,7 @@ import Detail from "./containers/pages/Detail/Detail";
 import Cart from "./containers/pages/Cart/Cart";
 import Checkout from "./containers/pages/Checkout/Checkout";
 import Intro from "./containers/pages/Intro/Intro";
+import Login from "./containers/pages/Login/Login";
 
 
 
@@ -51,6 +52,7 @@ function App() {
             <Route exact path="/intro" component={Intro} />
             <Route exact path="/wishlist" component={Wishlist} />
             <Route exact path="/privacy" component={Privacy} />
+            <Route exact path="/login" component={Login} />
             <Route exact path="/detail" component={Detail} />
             <Route exact path="/cart" component={Cart} />
             <Route exact path="/checkout" component={Checkout} />

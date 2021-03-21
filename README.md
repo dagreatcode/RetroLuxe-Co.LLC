@@ -12,20 +12,22 @@ Retro Luxe &amp; Co. LLC
 ## Table of Contents
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;[1)&nbsp;Introduction](#introduction)
+
 #### &nbsp;&nbsp;&nbsp;&nbsp;[2)&nbsp;Description](#description)
+
 #### &nbsp;&nbsp;&nbsp;&nbsp;[3)&nbsp;Features](#features)
+
 #### &nbsp;&nbsp;&nbsp;&nbsp;[4)&nbsp;Usage](#usage)
+
 #### &nbsp;&nbsp;&nbsp;&nbsp;[5)&nbsp;Contributing](#contributing)
+
 #### &nbsp;&nbsp;&nbsp;&nbsp;[6)&nbsp;License](#license)
+
 #### &nbsp;&nbsp;&nbsp;&nbsp;[7)&nbsp;Questions](#questions)
 
 ## Introduction
 
- A full-stack MERN application utilizing MongoDB, Express, React, and NodeJS, the four technologies that make up the stack.  This was to be accomplished while having a polished front-end/UI, a folder structure meeting the MVC paradigm, and incorporating good quality coding standards.  Additional requirements included:
-    1)  Having both GET and POST routes for retrieving and adding new data.
-    2)  Deploying to Heroku with data.
-    3)  Utilizing at least 2 new libraries, packages, or technologies that we haven't discussed in class. 
-    4)  Authenticating users in some way.
+A full-stack MERN application utilizing MongoDB, Express, React, and NodeJS, the four technologies that make up the stack. This was to be accomplished while having a polished front-end/UI, a folder structure meeting the MVC paradigm, and incorporating good quality coding standards. Additional requirements included: 1) Having both GET and POST routes for retrieving and adding new data. 2) Deploying to Heroku with data. 3) Utilizing at least 2 new libraries, packages, or technologies that we haven't discussed in class. 4) Authenticating users in some way.
 
 The app also had to be responsive.
 
@@ -57,11 +59,11 @@ JSONwebtoken:
 
 ## Usage
 
-The URL for this application will soon be http://www.retroluxe.com.
+The URL for this application will soon be [http://www.retroluxe.com].
 
-But for now, the Heroku link for this application is https://retroluxesite.herokuapp.com/.
+But for now, the Heroku link for this application is [https://retroluxesite.herokuapp.com/].
 
-To run this app the repo first must be cloned at Github on this link:  https://github.com/dagreatcode/RetroLuxe-Co.LLC
+To run this app the repo first must be cloned at Github on this link: [https://github.com/dagreatcode/RetroLuxe-Co.LLC].
 
 Show And Tell How To... Images of page and database
 
@@ -69,11 +71,12 @@ Show And Tell How To... Images of page and database
 
 Retro Luxe Collaborators:
 
-Vincent Kendrick:  https://github.com/dagreatcode
+Vincent Kendrick: [https://github.com/dagreatcode].
 
 ## License
 
 ---
+
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/dagreatcode/RetroLuxe-Co.LLC/blob/main/LICENSE)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -100,4 +103,4 @@ SOFTWARE.
 
 For questions or for other developers who would like to provide feedback on how to improve the work done on this project or offer other suggestions, please feel free to do so via the GitHub repositories provided.
 
-&copy; 2021  Vincent Kendrick
+&copy; 2021 Vincent Kendrick

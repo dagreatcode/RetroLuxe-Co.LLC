@@ -5,82 +5,81 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-            <div className="top-bar text-sm bg-transparent">
-          <div className="container-fluid px-lg-5 py-3">
-            <div className="row align-items-center">
-              <div className="col-md-4 d-none d-md-block">
-                <ul className="list-inline mb-0">
-                  <li className="list-inline-item mr-2">
-                    <a className="text-reset text-hover-primary" href="#">
-                      <i className="fab fa-facebook-f"> </i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item mr-4">
-                    <a className="text-reset text-hover-primary" href="#">
-                      <i className="fab fa-twitter"> </i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-sm-6 col-md-4 text-left text-md-center">
-                <p className="mb-0">Custom Outfits</p>
-              </div>
-              <div className="col-sm-6 col-md-4 d-none d-sm-flex justify-content-end">
-                <div className="dropdown border-right px-3">
-                  <a
-                    className="dropdown-toggle topbar-link"
-                    id="langsDropdown"
-                    href="#"
-                    data-toggle="dropdown"
-                    data-display="static"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    English
+      <div className="top-bar text-sm bg-transparent">
+        <div className="container-fluid px-lg-5 py-3">
+          <div className="row align-items-center">
+            <div className="col-md-4 d-none d-md-block">
+              <ul className="list-inline mb-0">
+                <li className="list-inline-item mr-2">
+                  <a className="text-reset text-hover-primary" href="#">
+                    <i className="fab fa-facebook-f"> </i>
                   </a>
-                  <div
-                    className="dropdown-menu dropdown-menu-right"
-                    aria-labelledby="langsDropdown"
-                  >
-                    <a className="dropdown-item" href="#">
-                      German
-                    </a>
-                    <a className="dropdown-item" href="#">
-                      French
-                    </a>
-                  </div>
+                </li>
+                <li className="list-inline-item mr-4">
+                  <a className="text-reset text-hover-primary" href="#">
+                    <i className="fab fa-twitter"> </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-sm-6 col-md-4 text-left text-md-center">
+              <p className="mb-0">Custom Outfits</p>
+            </div>
+            <div className="col-sm-6 col-md-4 d-none d-sm-flex justify-content-end">
+              <div className="dropdown border-right px-3">
+                <a
+                  className="dropdown-toggle topbar-link"
+                  id="langsDropdown"
+                  href="#"
+                  data-toggle="dropdown"
+                  data-display="static"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  English
+                </a>
+                <div
+                  className="dropdown-menu dropdown-menu-right"
+                  aria-labelledby="langsDropdown"
+                >
+                  <a className="dropdown-item" href="#">
+                    German
+                  </a>
+                  <a className="dropdown-item" href="#">
+                    French
+                  </a>
                 </div>
-                <div className="dropdown pl-3 ml-0">
-                  <a
-                    className="dropdown-toggle topbar-link"
-                    id="currencyDropdown"
-                    href="#"
-                    data-toggle="dropdown"
-                    data-display="static"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    USD
+              </div>
+              <div className="dropdown pl-3 ml-0">
+                <a
+                  className="dropdown-toggle topbar-link"
+                  id="currencyDropdown"
+                  href="#"
+                  data-toggle="dropdown"
+                  data-display="static"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  USD
+                </a>
+                <div
+                  className="dropdown-menu dropdown-menu-right"
+                  aria-labelledby="currencyDropdown"
+                >
+                  <a className="dropdown-item" href="#">
+                    EUR
                   </a>
-                  <div
-                    className="dropdown-menu dropdown-menu-right"
-                    aria-labelledby="currencyDropdown"
-                  >
-                    <a className="dropdown-item" href="#">
-                      EUR
-                    </a>
-                    <a className="dropdown-item" href="#">
-                      {" "}
-                      GBP
-                    </a>
-                  </div>
+                  <a className="dropdown-item" href="#">
+                    {" "}
+                    GBP
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-
         <div className="container-fluid">
           <Link to="/">Retro Luxe & Co. </Link>
           <button

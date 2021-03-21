@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
 // import Countdown from "../Countdown/Countdown";
 import { BrowserRouter as Router } from "react-router-dom";
 import Carousel from "../../ImgCarousel/Carousel";
 // import Menu from "../../../components/Menu/Menu";
 import Logo from "../../logoCarousel/Logo";
-import "./Home.css"
+import "./Home.css";
 import Footer from "../../../components/Footer/Footer";
 import img from "../../../img/product/category-men.jpg";
 import img2 from "../../../img/product/category-women.jpg";
@@ -51,7 +53,6 @@ class Home extends Component {
   render() {
     return (
       <Router>
-
         <Carousel />
         <svg className="blob">
           <use xlinkHref="#blob-shape-4"></use>
@@ -62,15 +63,22 @@ class Home extends Component {
             <div className="row">
               <div className="col-sm-6 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                  <div className="centered" style={{ color: "white" }}>
+                    Men
+                  </div>
                   <img
                     className="card-img img-scale"
                     alt="Card image"
                     src={img}
-                  />
+                    to="/"
+                  ></img>
                 </div>
               </div>
               <div className="col-sm-6 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+                  <div className="centered" style={{ color: "white" }}>
+                    Women
+                  </div>
                   <img
                     className="card-img img-scale"
                     alt="Card image"
@@ -122,7 +130,8 @@ class Home extends Component {
             <div className="row">
               <div className="col-sm-2 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img className="circle"
+                  <img
+                    className="circle"
                     src={this.state.img}
                     onMouseEnter={() => {
                       this.setState({
@@ -156,7 +165,8 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img className="circle"
+                  <img
+                    className="circle"
                     src={this.state.img2}
                     onMouseEnter={() => {
                       this.setState({
@@ -173,7 +183,8 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img className="circle"
+                  <img
+                    className="circle"
                     src={this.state.img3}
                     onMouseEnter={() => {
                       this.setState({
@@ -190,7 +201,8 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img className="circle"
+                  <img
+                    className="circle"
                     src={this.state.img4}
                     onMouseEnter={() => {
                       this.setState({
@@ -207,7 +219,8 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img className="circle"
+                  <img
+                    className="circle"
                     src={this.state.img5}
                     onMouseEnter={() => {
                       this.setState({
@@ -224,7 +237,8 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img className="circle"
+                  <img
+                    className="circle"
                     src={this.state.img6}
                     onMouseEnter={() => {
                       this.setState({
@@ -259,7 +273,8 @@ class Home extends Component {
             <div className="row">
               <div className="col-sm-2 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img className="circle"
+                  <img
+                    className="circle"
                     src={this.state.img7}
                     onMouseEnter={() => {
                       this.setState({
@@ -278,7 +293,8 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img className="circle"
+                  <img
+                    className="circle"
                     src={this.state.img8}
                     onMouseEnter={() => {
                       this.setState({
@@ -295,7 +311,8 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img className="circle"
+                  <img
+                    className="circle"
                     src={this.state.img9}
                     onMouseEnter={() => {
                       this.setState({
@@ -312,7 +329,8 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img className="circle"
+                  <img
+                    className="circle"
                     src={this.state.img10}
                     onMouseEnter={() => {
                       this.setState({
@@ -329,7 +347,8 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img className="circle"
+                  <img
+                    className="circle"
                     src={this.state.img11}
                     onMouseEnter={() => {
                       this.setState({
@@ -346,7 +365,8 @@ class Home extends Component {
               </div>
               <div className="col-sm-2 md-5 md-sm-0">
                 <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img className="circle"
+                  <img
+                    className="circle"
                     src={this.state.img12}
                     onMouseEnter={() => {
                       this.setState({

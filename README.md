@@ -9,6 +9,7 @@ Retro Luxe &amp; Co. LLC
 [![Website dagreatcode.github.io/RetroLuxe-Co.LLC/](https://img.shields.io/website-up-down-green-red/https/retroluxesite.herokuapp.com.svg)](https://retroluxesite.herokuapp.com/)
 </br>
 
+![Database Schemas](./client/src/img/siteimg/p2.png)
 ## Table of Contents
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;[1)&nbsp;Introduction](#introduction)
@@ -30,10 +31,16 @@ Retro Luxe &amp; Co. LLC
 A full-stack MERN application utilizing MongoDB, Express, React, and NodeJS, the four technologies that make up the stack. This was to be accomplished while having a polished front-end/UI, a folder structure meeting the MVC paradigm, and incorporating good quality coding standards. Additional requirements included: 1) Having both GET and POST routes for retrieving and adding new data. 2) Deploying to Heroku with data. 3) Utilizing at least 2 new libraries, packages, or technologies that we haven't discussed in class. 4) Authenticating users in some way.
 
 The app also had to be responsive.
+![Database Schemas](./client/src/img/siteimg/p4.png)
+
+
+
+
 
 ## Description
 
 A Retro Clothing Website
+![Database Schemas](./client/src/img/siteimg/p3.png)
 
 Our user story is as follows:
 
@@ -44,6 +51,7 @@ Our user story is as follows:
 --SO THAT:
 
 One aspect of this project that makes it stand out is...
+![Database Schemas](./client/src/img/siteimg/p1.png)
 
 ## Features
 

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Countdown from "../Countdown/Countdown";
+// import Countdown from "../Countdown/Countdown";
 import { BrowserRouter as Router } from "react-router-dom";
 import Carousel from "../../ImgCarousel/Carousel";
 import Menu from "../../../components/Menu/Menu";
@@ -368,7 +368,7 @@ class Home extends Component {
         <svg className="blob">
           <use xlinkHref="#blob-shape-2"></use>
         </svg>
-        <Countdown />
+        {/* <Countdown /> */}
         <div className="container">
           <h4>Our History</h4>
           <p>

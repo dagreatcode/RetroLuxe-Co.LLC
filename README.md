@@ -3,13 +3,15 @@
 Retro Luxe &amp; Co. LLC
 </br>
 [🎧 Website 🎧](https://retroluxesite.herokuapp.com/)
-</br>
 [🔭 Repo 🔭](https://github.com/dagreatcode/RetroLuxe-Co.LLC)
+
+![Database Schemas](./client/src/img/siteimg/p4.png)
+
 </br>
+
 [![Website dagreatcode.github.io/RetroLuxe-Co.LLC/](https://img.shields.io/website-up-down-green-red/https/retroluxesite.herokuapp.com.svg)](https://retroluxesite.herokuapp.com/)
 </br>
 
-![Database Schemas](./client/src/img/siteimg/p2.png)
 ## Table of Contents
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;[1)&nbsp;Introduction](#introduction)
@@ -28,10 +30,10 @@ Retro Luxe &amp; Co. LLC
 
 ## Introduction
 
-A full-stack MERN application utilizing MongoDB, Express, React, and NodeJS, the four technologies that make up the stack. This was to be accomplished while having a polished front-end/UI, a folder structure meeting the MVC paradigm, and incorporating good quality coding standards. Additional requirements included: 1) Having both GET and POST routes for retrieving and adding new data. 2) Deploying to Heroku with data. 3) Utilizing at least 2 new libraries, packages, or technologies that we haven't discussed in class. 4) Authenticating users in some way.
+A full-stack MERN application utilizing MongoDB, Express, React, and NodeJS, the four technologies that make up the stack.
 
 The app also had to be responsive.
-![Database Schemas](./client/src/img/siteimg/p4.png)
+![Database Schemas](./client/src/img/siteimg/p5.png)
 
 ## Description
 
@@ -40,33 +42,37 @@ A Retro Clothing Website
 
 Our user story is as follows:
 
---AS A:
+--AS A: Person that loves retro clothing, but can not find any anywhere.
 </br>
---I WANT:
+--I WANT: A site retro website
 </br>
---SO THAT:
+--SO THAT: I can buy or get custom retro items the way I have always dreamed of.
 
-One aspect of this project that makes it stand out is...
+One aspect of this project that makes it stand out is when you come to this site, you get a 1 on 1 interview on the items you want custom made from old to new. Thats why it is named Retro Luxe™.
 
-![Database Schemas](./client/src/img/siteimg/p1.png)
+
 
 ## Features
 
 Twilio:
+
+![Database Schemas](./client/src/img/siteimg/p1.png)
+
 </br>
 MongoDB:
+
+![Database Schemas](./client/src/img/siteimg/p6.png)
+
 </br>
 JSON Web Token(JWT):
 
-![Database Schemas](./client/src/img/siteimg/p5.png)
+![Database Schemas](./client/src/img/siteimg/p2.png)
 
 ## Usage
 
 The URL for this application will soon be [http://www.retroluxe.com].
 
 But for now, the Heroku link for this application is [https://retroluxesite.herokuapp.com/].
-
-Show And Tell How To... Images of page and database:
 
 I started off without react to use SQL. But using MongoDB in this case might be better choice for the cause.
 ![Database Schemas](./client/src/img/siteimg/erdiagram.png)

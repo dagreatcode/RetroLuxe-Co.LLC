@@ -74,7 +74,7 @@ The URL for this application will soon be [http://www.retroluxe.com].
 
 But for now, the Heroku link for this application is [https://retroluxesite.herokuapp.com/].
 
-I started off without react to use SQL. But using MongoDB in this case might be better choice for the cause.
+I started off without react to use SQL. But using MongoDB in this case might be a better choice for the cause.
 ![Database Schemas](./client/src/img/siteimg/erdiagram.png)
 
 ## Contributing

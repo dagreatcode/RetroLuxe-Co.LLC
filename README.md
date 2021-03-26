@@ -40,33 +40,49 @@ The app also had to be responsive.
 A Retro Clothing Website
 ![Database Schemas](./client/src/img/siteimg/p3.png)
 
-Our user story is as follows:
+## User Story
 
+Our user story is as follows:
+```
 --AS A: Person that loves retro clothing, but can not find any anywhere.
 </br>
 --I WANT: A site retro website
 </br>
 --SO THAT: I can buy or get custom retro items the way I have always dreamed of.
+```
+
+## Acceptance Criteria
+
+```
+GIVEN I want a custom retro outfit made
+WHEN I click customs
+THEN I am presented with options
+WHEN prompted to chose what type
+THEN I fill out the form and wait to be contacted.
+```
 
 One aspect of this project that makes it stand out is when you come to this site, you get a 1 on 1 interview on the items you want custom made from old to new. Thats why it is named Retro Luxe™.
-
-
 
 ## Features
 
 Twilio:
 
 ![Database Schemas](./client/src/img/siteimg/p1.png)
+For conformation to the customers cell phone.
 
 </br>
 MongoDB:
 
 ![Database Schemas](./client/src/img/siteimg/p6.png)
+For inventory and user data.
 
 </br>
 JSON Web Token(JWT):
 
 ![Database Schemas](./client/src/img/siteimg/p2.png)
+Verification of password
+
+## Review
 
 ## Usage
 
@@ -112,5 +128,7 @@ SOFTWARE.
 ## Questions
 
 For questions or for other developers who would like to provide feedback on how to improve the work done on this project or offer other suggestions, please feel free to do so via the GitHub repositories provided.
+
+
 
 &copy; 2021 Vincent Kendrick

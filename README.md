@@ -20,6 +20,8 @@ Retro Luxe &amp; Co. LLC
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;[3)&nbsp;Features](#features)
 
+#### &nbsp;&nbsp;&nbsp;&nbsp;[7)&nbsp;Review](#review)
+
 #### &nbsp;&nbsp;&nbsp;&nbsp;[4)&nbsp;Usage](#usage)
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;[5)&nbsp;Contributing](#contributing)
@@ -45,9 +47,7 @@ A Retro Clothing Website
 Our user story is as follows:
 ```
 --AS A: Person that loves retro clothing, but can not find any anywhere.
-</br>
 --I WANT: A site retro website
-</br>
 --SO THAT: I can buy or get custom retro items the way I have always dreamed of.
 ```
 
@@ -80,7 +80,7 @@ For inventory and user data.
 JSON Web Token(JWT):
 
 ![Database Schemas](./client/src/img/siteimg/p2.png)
-Verification of password
+Verification of password and user.
 
 ## Review
 

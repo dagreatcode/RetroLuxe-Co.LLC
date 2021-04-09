@@ -1,0 +1,45 @@
+const data = {
+  products: [
+    {
+      quantity: 20,
+      name: "Denim",
+      size: 12,
+      type: "Pants",
+      gender: "Female",
+      image: "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+      sale: true,
+      new: false,
+      description: "High Riders",
+      rating: 5,
+      bin_location: 1,
+    },
+    {
+      quantity: 10,
+      name: "denim jacket",
+      size: 7,
+      type: "jacket",
+      gender: "male",
+      image: "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+      sale: true,
+      new: false,
+      description: "short cut",
+      rating: 3,
+      bin_location: 2,
+    },
+    {
+      quantity: 2,
+      name: "t shirt",
+      size: 4,
+      type: "shirt",
+      gender: "male",
+      image: "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+      sale: true,
+      new: false,
+      description: "short cut",
+      rating: 3,
+      bin_location: 2,
+    },
+  ],
+};
+
+export default data;

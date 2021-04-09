@@ -34,6 +34,7 @@ import img21 from "../../../img/product/0950354513_1_1_1.jpg";
 import img201 from "../../../img/product/0950354513_2_1_1.jpg";
 import img22 from "../../../img/product/0987188250_1_1_1.jpg";
 import img202 from "../../../img/product/0987188250_2_1_1.jpg";
+import data from "./data";
 
 class Home extends Component {
   state = {
@@ -54,400 +55,58 @@ class Home extends Component {
     return (
       <>
         <div className="row">
-          <div className="col-sm-3">
-            <div className="card">
-              <div className="card-body">
-                <a href="product.html">
-                  <img
-                    className="medium"
-                    src={this.state.img}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img: img101,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img: img10,
-                      });
-                    }}
-                  />
-                </a>
-                <h5 className="card-title">Special title treatment</h5>
-                <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-                <div className="rating">
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
+          {data.products.map((product) => (
+            <div className="col-sm-3">
+              <div className="card">
+                <div className="card-body">
+                  <a href="/detail">
+                    <h2>{product.name}</h2>
+                    <img
+                      className="medium"
+                      src={this.state.img}
+                      alt="image"
+                      onMouseEnter={() => {
+                        this.setState({
+                          img: img101,
+                        });
+                      }}
+                      onMouseOut={() => {
+                        this.setState({
+                          img: img10,
+                        });
+                      }}
+                    />
+                  </a>
+                  <h5 className="card-title">Special title treatment</h5>
+                  <p className="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <a href="/category" className="btn btn-primary">
+                    Go somewhere
+                  </a>
+                  <div className="rating">
+                    <span>
+                      <i className="fa fa-star"></i>
+                    </span>
+                    <span>
+                      <i className="fa fa-star"></i>
+                    </span>
+                    <span>
+                      <i className="fa fa-star"></i>
+                    </span>
+                    <span>
+                      <i className="fa fa-star"></i>
+                    </span>
+                    <span>
+                      <i className="fa fa-star"></i>
+                    </span>
+                  </div>
+                  <div className="price">$120</div>
                 </div>
-                <div className="price">$120</div>
               </div>
             </div>
-          </div>
-          <div className="col-sm-3">
-            <div className="card">
-              <div className="card-body">
-                <a href="product.html">
-                  <img
-                    className="medium"
-                    src={this.state.img3}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img3: img103,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img3: img13,
-                      });
-                    }}
-                  />
-                </a>
-                <h5 className="card-title">Special title treatment</h5>
-                <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-                <div className="rating">
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                </div>
-                <div className="price">$120</div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-3">
-            <div className="card">
-              <div className="card-body">
-                <a href="product.html">
-                  <img
-                    className="medium"
-                    src={this.state.img4}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img4: img104,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img4: img14,
-                      });
-                    }}
-                  />
-                </a>
-                <h5 className="card-title">Special title treatment</h5>
-                <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-                <div className="rating">
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                </div>
-                <div className="price">$120</div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-3">
-            <div className="card">
-              <div className="card-body">
-                <a href="product.html">
-                  <img
-                    className="medium"
-                    src={this.state.img5}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img5: img105,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img5: img15,
-                      });
-                    }}
-                  />
-                </a>
-                <h5 className="card-title">Special title treatment</h5>
-                <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-                <div className="rating">
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                </div>
-                <div className="price">$120</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm-3">
-            <div className="card">
-              <div className="card-body">
-                <a href="product.html">
-                  <img
-                    className="medium"
-                    src={this.state.img6}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img6: img106,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img6: img16,
-                      });
-                    }}
-                  />
-                </a>
-                <h5 className="card-title">Special title treatment</h5>
-                <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-                <div className="rating">
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                </div>
-                <div className="price">$120</div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-3">
-            <div className="card">
-              <div className="card-body">
-                <a href="product.html">
-                  <img
-                    className="medium"
-                    src={this.state.img7}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img7: img107,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img7: img17,
-                      });
-                    }}
-                  />
-                </a>
-                <h5 className="card-title">Special title treatment</h5>
-                <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-                <div className="rating">
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                </div>
-                <div className="price">$120</div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-3">
-            <div className="card">
-              <div className="card-body">
-                <a href="product.html">
-                  <img
-                    className="medium"
-                    src={this.state.img8}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img8: img108,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img8: img18,
-                      });
-                    }}
-                  />
-                </a>
-                <h5 className="card-title">Special title treatment</h5>
-                <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-                <div className="rating">
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                </div>
-                <div className="price">$120</div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-3">
-            <div className="card">
-              <div className="card-body">
-                <a href="product.html">
-                  <img
-                    className="medium"
-                    src={this.state.img9}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img9: img109,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img9: img19,
-                      });
-                    }}
-                  />
-                </a>
-                <h5 className="card-title">Special title treatment</h5>
-                <p className="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-                <div className="rating">
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span>
-                    <i className="fa fa-star"></i>
-                  </span>
-                </div>
-                <div className="price">$120</div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
         <Footer />
       </>

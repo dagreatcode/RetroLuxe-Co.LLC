@@ -1,9 +1,41 @@
 [
   {
-    "type": "Pants",
+    "quantity": 20,
+    "name": "denim",
+    "size": 12,
+    "type": "pants",
+    "gender": "female",
     "image": "/client/src/img/product/category-jeans-colour-bg-2/jpg",
-    "gender": "Female",
-    "description": "High Riders",
+    "sale": true,
+    "new": false,
+    "description": "high riders",
+    "rating": 5,
     "bin_location": 1
+  },
+  {
+    "quantity": 10,
+    "name": "denim jacket",
+    "size": 7,
+    "type": "jacket",
+    "gender": "male",
+    "image": "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+    "sale": true,
+    "new": false,
+    "description": "short cut",
+    "rating": 3,
+    "bin_location": 2
+  },
+  {
+    "quantity": 10,
+    "name": "denim jacket",
+    "size": 7,
+    "type": "jacket",
+    "gender": "male",
+    "image": "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+    "sale": true,
+    "new": false,
+    "description": "short cut",
+    "rating": 3,
+    "bin_location": 2
   }
 ]

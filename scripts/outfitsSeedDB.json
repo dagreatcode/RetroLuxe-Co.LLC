@@ -2,6 +2,7 @@
   {
     "quantity": 20,
     "name": "denim",
+    "price": 30,
     "size": 12,
     "type": "pants",
     "gender": "female",

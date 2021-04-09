@@ -3,6 +3,7 @@ const mongoose = require("mongoose"),
   outfitsSchema = new Schema({
     quantity: { type: Number },
     name: { type: String },
+    price: { type: Number },
     size: { type: Number },
     type: { type: String },
     gender: { type: String },

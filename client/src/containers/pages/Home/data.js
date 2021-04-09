@@ -1,9 +1,11 @@
 const data = {
   products: [
     {
+      _id: 1,
       quantity: 20,
       name: "Denim",
       size: 12,
+      price: 30,
       type: "Pants",
       gender: "Female",
       image: "/client/src/img/product/category-jeans-colour-bg-2/jpg",
@@ -14,8 +16,10 @@ const data = {
       bin_location: 1,
     },
     {
+      _id: 2,
       quantity: 10,
       name: "denim jacket",
+      price: 320,
       size: 7,
       type: "jacket",
       gender: "male",
@@ -27,8 +31,10 @@ const data = {
       bin_location: 2,
     },
     {
+      _id: 3,
       quantity: 2,
       name: "t shirt",
+      price: 10,
       size: 4,
       type: "shirt",
       gender: "male",
@@ -40,8 +46,10 @@ const data = {
       bin_location: 2,
     },
     {
+      _id: 4,
       quantity: 2,
       name: "dresses",
+      price: 302,
       size: 4,
       type: "shirt",
       gender: "male",
@@ -53,8 +61,10 @@ const data = {
       bin_location: 2,
     },
     {
+      _id: 5,
       quantity: 2,
       name: "shoes",
+      price: 150,
       size: 4,
       type: "shirt",
       gender: "male",
@@ -66,8 +76,10 @@ const data = {
       bin_location: 2,
     },
     {
+      _id: 6,
       quantity: 2,
       name: "hat",
+      price: 30,
       size: 4,
       type: "shirt",
       gender: "male",
@@ -79,8 +91,10 @@ const data = {
       bin_location: 2,
     },
     {
+      _id: 7,
       quantity: 2,
       name: "sexy wear",
+      price: 200,
       size: 4,
       type: "shirt",
       gender: "male",
@@ -92,8 +106,10 @@ const data = {
       bin_location: 2,
     },
     {
+      _id: 8,
       quantity: 2,
       name: "scarf",
+      price: 10,
       size: 4,
       type: "shirt",
       gender: "male",

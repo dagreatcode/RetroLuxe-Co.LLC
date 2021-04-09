@@ -56,15 +56,17 @@ class Home extends Component {
       <>
         <div className="row">
           {data.products.map((product) => (
-            <div className="col-sm-3">
+            <div key={product._id} className="col-sm-3">
               <div className="card">
+                <a href={`/product/${product.id}`}>
+                  <h2>{product.name}</h2>
+                </a>
                 <div className="card-body">
-                  <a href="/detail">
-                    <h2>{product.name}</h2>
+                  <a href={`/product/${product.id}`}>
                     <img
                       className="medium"
                       src={this.state.img}
-                      alt="image"
+                      alt={product.name}
                       onMouseEnter={() => {
                         this.setState({
                           img: img101,
@@ -82,7 +84,7 @@ class Home extends Component {
                     With supporting text below as a natural lead-in to
                     additional content.
                   </p>
-                  <a href="/category" className="btn btn-primary">
+                  <a href={`/product/${product.id}`} className="btn btn-primary">
                     Go somewhere
                   </a>
                   <div className="rating">
@@ -102,7 +104,7 @@ class Home extends Component {
                       <i className="fa fa-star"></i>
                     </span>
                   </div>
-                  <div className="price">$120</div>
+                  <div className="price">${product.price}</div>
                 </div>
               </div>
             </div>

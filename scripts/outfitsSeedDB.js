@@ -5,6 +5,7 @@ const outfitsSeedDB = [
   {
     quantity: 20,
     name: "Denim",
+    price: 120,
     size: 12,
     type: "Pants",
     gender: "Female",
@@ -18,6 +19,7 @@ const outfitsSeedDB = [
   {
     quantity: 10,
     name: "denim jacket",
+    price: 190,
     size: 7,
     type: "jacket",
     gender: "male",
@@ -29,17 +31,18 @@ const outfitsSeedDB = [
     bin_location: 2
   },
   {
-    "quantity": 2,
-    "name": "t shirt",
-    "size": 4,
-    "type": "shirt",
-    "gender": "male",
-    "image": "/client/src/img/product/category-jeans-colour-bg-2/jpg",
-    "sale": true,
-    "new": false,
-    "description": "short cut",
-    "rating": 3,
-    "bin_location": 2
+    quantity: 2,
+    name: "t shirt",
+    price: 30,
+    size: 4,
+    type: "shirt",
+    gender: "male",
+    image: "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+    sale: true,
+    new: false,
+    description: "short cut",
+    rating: 3,
+    bin_location: 2
   },
 ];
 db.Outfits.remove({})

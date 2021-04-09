@@ -109,16 +109,16 @@ class Home extends Component {
               <a href="product.html">
           <img
             className="medium"
-            src={this.state.img}
+            src={this.state.img3}
             alt="image"
             onMouseEnter={() => {
               this.setState({
-                img2: img102,
+                img3: img103,
               });
             }}
             onMouseOut={() => {
               this.setState({
-                img2: img12,
+                img3: img13,
               });
             }}
           />
@@ -158,16 +158,16 @@ class Home extends Component {
                 <a href="product.html">
                   <img
                     className="medium"
-                    src={this.state.img}
+                    src={this.state.img4}
                     alt="image"
                     onMouseEnter={() => {
                       this.setState({
-                        img: img101,
+                        img4: img104,
                       });
                     }}
                     onMouseOut={() => {
                       this.setState({
-                        img: img10,
+                        img4: img14,
                       });
                     }}
                   />
@@ -207,16 +207,16 @@ class Home extends Component {
                 <a href="product.html">
                   <img
                     className="medium"
-                    src={this.state.img}
+                    src={this.state.img5}
                     alt="image"
                     onMouseEnter={() => {
                       this.setState({
-                        img: img101,
+                        img5: img105,
                       });
                     }}
                     onMouseOut={() => {
                       this.setState({
-                        img: img10,
+                        img5: img15,
                       });
                     }}
                   />
@@ -259,16 +259,16 @@ class Home extends Component {
                 <a href="product.html">
                   <img
                     className="medium"
-                    src={this.state.img}
+                    src={this.state.img6}
                     alt="image"
                     onMouseEnter={() => {
                       this.setState({
-                        img: img101,
+                        img6: img106,
                       });
                     }}
                     onMouseOut={() => {
                       this.setState({
-                        img: img10,
+                        img6: img16,
                       });
                     }}
                   />
@@ -308,16 +308,16 @@ class Home extends Component {
               <a href="product.html">
           <img
             className="medium"
-            src={this.state.img}
+            src={this.state.img7}
             alt="image"
             onMouseEnter={() => {
               this.setState({
-                img2: img102,
+                img7: img107,
               });
             }}
             onMouseOut={() => {
               this.setState({
-                img2: img12,
+                img7: img17,
               });
             }}
           />
@@ -357,16 +357,16 @@ class Home extends Component {
                 <a href="product.html">
                   <img
                     className="medium"
-                    src={this.state.img}
+                    src={this.state.img8}
                     alt="image"
                     onMouseEnter={() => {
                       this.setState({
-                        img: img101,
+                        img8: img108,
                       });
                     }}
                     onMouseOut={() => {
                       this.setState({
-                        img: img10,
+                        img8: img18,
                       });
                     }}
                   />
@@ -406,16 +406,16 @@ class Home extends Component {
                 <a href="product.html">
                   <img
                     className="medium"
-                    src={this.state.img}
+                    src={this.state.img9}
                     alt="image"
                     onMouseEnter={() => {
                       this.setState({
-                        img: img101,
+                        img9: img109,
                       });
                     }}
                     onMouseOut={() => {
                       this.setState({
-                        img: img10,
+                        img9: img19,
                       });
                     }}
                   />

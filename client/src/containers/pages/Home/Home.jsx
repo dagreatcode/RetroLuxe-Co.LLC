@@ -106,23 +106,23 @@ class Home extends Component {
           <div className="col-sm-3">
             <div className="card">
               <div className="card-body">
-              <a href="product.html">
-          <img
-            className="medium"
-            src={this.state.img3}
-            alt="image"
-            onMouseEnter={() => {
-              this.setState({
-                img3: img103,
-              });
-            }}
-            onMouseOut={() => {
-              this.setState({
-                img3: img13,
-              });
-            }}
-          />
-        </a>
+                <a href="product.html">
+                  <img
+                    className="medium"
+                    src={this.state.img3}
+                    alt="image"
+                    onMouseEnter={() => {
+                      this.setState({
+                        img3: img103,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img3: img13,
+                      });
+                    }}
+                  />
+                </a>
                 <h5 className="card-title">Special title treatment</h5>
                 <p className="card-text">
                   With supporting text below as a natural lead-in to additional
@@ -250,7 +250,6 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          
         </div>
         <div className="row">
           <div className="col-sm-3">
@@ -305,23 +304,23 @@ class Home extends Component {
           <div className="col-sm-3">
             <div className="card">
               <div className="card-body">
-              <a href="product.html">
-          <img
-            className="medium"
-            src={this.state.img7}
-            alt="image"
-            onMouseEnter={() => {
-              this.setState({
-                img7: img107,
-              });
-            }}
-            onMouseOut={() => {
-              this.setState({
-                img7: img17,
-              });
-            }}
-          />
-        </a>
+                <a href="product.html">
+                  <img
+                    className="medium"
+                    src={this.state.img7}
+                    alt="image"
+                    onMouseEnter={() => {
+                      this.setState({
+                        img7: img107,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img7: img17,
+                      });
+                    }}
+                  />
+                </a>
                 <h5 className="card-title">Special title treatment</h5>
                 <p className="card-text">
                   With supporting text below as a natural lead-in to additional
@@ -449,7 +448,6 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          
         </div>
         <Footer />
       </>

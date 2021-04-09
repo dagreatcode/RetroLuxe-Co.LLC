@@ -127,376 +127,13 @@ class Intro extends Component {
           dolorum vitae deserunt nostrum incidunt cumque, quo voluptates
           recusandae odit laudantium?
         </p>
-        <div className="grid-container">
-          
-        </div>
-        <div className="row center">
-          <div className="card">
-            <a href="product.html">
-              <img
-                className="medium"
-                src={this.state.img}
-                alt="image"
-                onMouseEnter={() => {
-                  this.setState({
-                    img: img101,
-                  });
-                }}
-                onMouseOut={() => {
-                  this.setState({
-                    img: img10,
-                  });
-                }}
-              />
-            </a>
-            <div className="card-body">
-              <div className="product-badge badge badge-secondary">Fresh</div>
-              <a href="product.html">
-                <h2>Black Pants</h2>
-              </a>
-              <div className="rating">
-                <span>
-                  <i className="fa fa-star"></i>
-                </span>
-                <span>
-                  <i className="fa fa-star"></i>
-                </span>
-                <span>
-                  <i className="fa fa-star"></i>
-                </span>
-                <span>
-                  <i className="fa fa-star"></i>
-                </span>
-                <span>
-                  <i className="fa fa-star"></i>
-                </span>
-              </div>
-              <div className="price">$120</div>
-            </div>
-          </div>
-          
-        </div>
-        <div className="position-relative">
-          <div className="container py-6">
-            <div className="row">
-              <div className="col-sm-2 md-5 md-sm-0">
-                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
+        <div className="row">
+        <div className="col-sm-4">
+            <div className="card">
+              <div className="card-body">
+                <a href="product.html">
                   <img
-                    className="circle"
-                    src={this.state.img}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img: img101,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img: img10,
-                      });
-                    }}
-                  />
-                  <div className="product-badge badge badge-secondary">
-                    Fresh
-                  </div>
-                  <div className="position-relative">
-                    <div className="product-stars text-xs">
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-muted"></i>
-                      <i className="fa fa-star small text-muted"></i>
-                    </div>
-                    <h3 className="text-base mb-1">
-                      <a className="text-dark" href="detail-1.html">
-                        <h6>White Tee</h6>
-                      </a>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-2 md-5 md-sm-0">
-                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="circle"
-                    src={this.state.img2}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img2: img102,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img2: img12,
-                      });
-                    }}
-                  />
-                  <div className="product-badge badge badge-secondary">
-                    Fresh
-                  </div>
-                  <div className="position-relative">
-                    <div className="product-stars text-xs">
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-muted"></i>
-                      <i className="fa fa-star small text-muted"></i>
-                    </div>
-                    <h3 className="text-base mb-1">
-                      <a className="text-dark" href="detail-1.html">
-                        <h6>White Tee</h6>
-                      </a>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-2 md-5 md-sm-0">
-                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="circle"
-                    src={this.state.img3}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img3: img103,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img3: img13,
-                      });
-                    }}
-                  />{" "}
-                  <div className="product-badge badge badge-secondary">
-                    Fresh
-                  </div>
-                  <div className="position-relative">
-                    <div className="product-stars text-xs">
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-muted"></i>
-                      <i className="fa fa-star small text-muted"></i>
-                    </div>
-                    <h3 className="text-base mb-1">
-                      <a className="text-dark" href="detail-1.html">
-                        <h6>White Tee</h6>
-                      </a>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-2 md-5 md-sm-0">
-                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="circle"
-                    src={this.state.img4}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img4: img104,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img4: img14,
-                      });
-                    }}
-                  />
-                  <div className="product-badge badge badge-secondary">
-                    Fresh
-                  </div>
-                  <div className="position-relative">
-                    <div className="product-stars text-xs">
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-muted"></i>
-                      <i className="fa fa-star small text-muted"></i>
-                    </div>
-                    <h3 className="text-base mb-1">
-                      <a className="text-dark" href="detail-1.html">
-                        <h6>White Tee</h6>
-                      </a>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-2 md-5 md-sm-0">
-                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="circle"
-                    src={this.state.img5}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img5: img105,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img5: img15,
-                      });
-                    }}
-                  />
-                  <div className="product-badge badge badge-secondary">
-                    Fresh
-                  </div>
-                  <div className="position-relative">
-                    <div className="product-stars text-xs">
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-primary"></i>
-                      <i className="fa fa-star small text-muted"></i>
-                      <i className="fa fa-star small text-muted"></i>
-                    </div>
-                    <h3 className="text-base mb-1">
-                      <a className="text-dark" href="detail-1.html">
-                        <h6>White Tee</h6>
-                      </a>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-2 md-5 md-sm-0">
-                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="circle"
-                    src={this.state.img6}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img6: img106,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img6: img16,
-                      });
-                    }}
-                  />
-                </div>
-                <div className="position-relative">
-                  <h3 className="text-base mb-1">
-                    <a className="text-dark" href="detail-1.html">
-                      <h6> Black blouse</h6>
-                    </a>
-                  </h3>
-                  <span className="text-gray-500 text-sm">$40.00</span>
-                  <div className="product-stars text-xs">
-                    <i className="fa fa-star small text-primary"></i>
-                    <i className="fa fa-star small text-primary"></i>
-                    <i className="fa fa-star small text-primary"></i>
-                    <i className="fa fa-star small text-muted"></i>
-                    <i className="fa fa-star small text-muted"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <hr className="divider" />
-            <div className="row">
-              <div className="col-sm-2 md-5 md-sm-0">
-                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="circle"
-                    src={this.state.img7}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img7: img107,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img7: img17,
-                      });
-                    }}
-                  />
-                  <div className="product-badge badge badge-primary">Sale</div>
-                  <a href="./sale"></a>
-                </div>
-              </div>
-              <div className="col-sm-2 md-5 md-sm-0">
-                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="circle"
-                    src={this.state.img8}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img8: img108,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img8: img18,
-                      });
-                    }}
-                  />
-                </div>
-              </div>
-              <div className="col-sm-2 md-5 md-sm-0">
-                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="circle"
-                    src={this.state.img9}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img9: img109,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img9: img19,
-                      });
-                    }}
-                  />
-                </div>
-              </div>
-              <div className="col-sm-2 md-5 md-sm-0">
-                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="circle"
-                    src={this.state.img10}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img10: img200,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img10: img20,
-                      });
-                    }}
-                  />
-                </div>
-              </div>
-              <div className="col-sm-2 md-5 md-sm-0">
-                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="circle"
-                    src={this.state.img11}
-                    alt="image"
-                    onMouseEnter={() => {
-                      this.setState({
-                        img11: img201,
-                      });
-                    }}
-                    onMouseOut={() => {
-                      this.setState({
-                        img11: img21,
-                      });
-                    }}
-                  />
-                </div>
-              </div>
-              <div className="col-sm-2 md-5 md-sm-0">
-                <div className="card card-scale shadow-0 border-0 text-white text-hover-gray-900 overlay-hover-light text-center">
-                  <img
-                    className="circle"
+                    className="medium"
                     src={this.state.img12}
                     alt="image"
                     onMouseEnter={() => {
@@ -510,11 +147,144 @@ class Intro extends Component {
                       });
                     }}
                   />
+                </a>
+                <h5 className="card-title">Special title treatment</h5>
+                <p className="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+                <div className="rating">
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
                 </div>
+                <div className="price">$120</div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-4">
+            <div className="card">
+              <div className="card-body">
+                <a href="product.html">
+                  <img
+                    className="medium"
+                    src={this.state.img11}
+                    alt="image"
+                    onMouseEnter={() => {
+                      this.setState({
+                        img11: img201,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img11: img21,
+                      });
+                    }}
+                  />
+                </a>
+                <h5 className="card-title">Special title treatment</h5>
+                <p className="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+                <br/>
+                <div className="product-badge badge badge-secondary">
+                    Fresh
+                  </div>
+                <div className="rating">
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                </div>
+                <div className="price">$120</div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-4">
+            <div className="card">
+              <div className="card-body">
+                <a href="product.html">
+                  <img
+                    className="medium"
+                    src={this.state.img10}
+                    alt="image"
+                    onMouseEnter={() => {
+                      this.setState({
+                        img10: img200,
+                      });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({
+                        img10: img20,
+                      });
+                    }}
+                  />
+                </a>
+                <h5 className="card-title">Special title treatment</h5>
+                <p className="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+                <br/>
+                <div className="product-badge badge badge-primary">Sale</div>
+                <div className="rating">
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                  <span>
+                    <i className="fa fa-star"></i>
+                  </span>
+                </div>
+                <div className="price">$120</div>
               </div>
             </div>
           </div>
         </div>
+        
+
+        
         <br></br>
         <svg className="blob">
           <use xlinkHref="#blob-shape-2"></use>

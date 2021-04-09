@@ -5,6 +5,64 @@ class Contact extends Component {
     return (
       <div>
         <h1>Contact</h1>
+        <div className="container">
+        <div className="row">
+            <section className="col-sm-12">
+              <h2 id="about-title">
+                Retro Luxe is the best place to make your dream come true
+              </h2>
+              <h4 className="border" id="about-description">
+                Hello. Lorem Consequat magna consequat anim veniam occaecat in.
+                Officia aliquip magna Lorem fugiat magna elit sint mollit ex
+                commodo aliqua labore. Irure incididunt ut sit aliqua veniam
+                mollit aliqua tempor sint elit tempor. Anim consequat in laboris
+                aute cillum duis commodo proident. Anim aliquip nisi dolor
+                laborum voluptate laboris aliquip est mollit cupidatat. Culpa
+                mollit non occaecat quis ullamco consectetur sit aliquip veniam
+                incididunt consectetur do ullamco fugiat. Commodo cupidatat
+                aliqua aliquip laborum commodo exercitation culpa laboris
+                tempor. Tempor magna do aliqua laboris est dolore magna. Cillum
+                ut proident quis ut dolore et elit eiusmod consequat anim
+                dolore. Laborum excepteur enim quis ea ex occaecat quis ullamco
+                laborum veniam ut deserunt ea mollit. Amet quis culpa magna sint
+                pariatur velit duis exercitation incididunt ex deserunt ad
+                aliqua. Sit ut fugiat anim mollit occaecat laborum laborum et
+                anim cupidatat irure. Lorem Consequat magna consequat anim veniam occaecat in.
+                Officia aliquip magna Lorem fugiat magna elit sint mollit ex
+                commodo aliqua labore. Irure incididunt ut sit aliqua veniam
+                mollit aliqua tempor sint elit tempor. Anim consequat in laboris
+                aute cillum duis commodo proident. Anim aliquip nisi dolor
+                laborum voluptate laboris aliquip est mollit cupidatat. Culpa
+                mollit non occaecat quis ullamco consectetur sit aliquip veniam
+                incididunt consectetur do ullamco fugiat. Commodo cupidatat
+                aliqua aliquip laborum commodo exercitation culpa laboris
+                tempor. Tempor magna do aliqua laboris est dolore magna. Cillum
+                ut proident quis ut dolore et elit eiusmod consequat anim
+                dolore. Laborum excepteur enim quis ea ex occaecat quis ullamco
+                laborum veniam ut deserunt ea mollit. Amet quis culpa magna sint
+                pariatur velit duis exercitation incididunt ex deserunt ad
+                aliqua. Sit ut fugiat anim mollit occaecat laborum laborum et
+                anim cupidatat irure. Lorem Consequat magna consequat anim veniam occaecat in.
+                Officia aliquip magna Lorem fugiat magna elit sint mollit ex
+                commodo aliqua labore. Irure incididunt ut sit aliqua veniam
+                mollit aliqua tempor sint elit tempor. Anim consequat in laboris
+                aute cillum duis commodo proident. Anim aliquip nisi dolor
+                laborum voluptate laboris aliquip est mollit cupidatat. Culpa
+                mollit non occaecat quis ullamco consectetur sit aliquip veniam
+                incididunt consectetur do ullamco fugiat. Commodo cupidatat
+                aliqua aliquip laborum commodo exercitation culpa laboris
+                tempor. Tempor magna do aliqua laboris est dolore magna. Cillum
+                ut proident quis ut dolore et elit eiusmod consequat anim
+                dolore. Laborum excepteur enim quis ea ex occaecat quis ullamco
+                laborum veniam ut deserunt ea mollit. Amet quis culpa magna sint
+                pariatur velit duis exercitation incididunt ex deserunt ad
+                aliqua. Sit ut fugiat anim mollit occaecat laborum laborum et
+                anim cupidatat irure.{" "}
+              </h4>
+            </section>
+          </div>
+        </div>
+
         <div className="container mb-3">
           <label htmlFor="exampleFormControlInput1" className="form-label">
             Email address
@@ -23,7 +81,7 @@ class Contact extends Component {
           <textarea
             className="form-control"
             id="exampleFormControlTextarea1"
-            rows="3"
+            rows="10"
           ></textarea>
         </div>
       </div>

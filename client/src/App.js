@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import "./App.css";
 import axios from "axios";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./containers/pages/Home/Home";
 import About from "./containers/pages/About/About";
@@ -18,6 +18,7 @@ import Cart from "./containers/pages/Cart/Cart";
 import Checkout from "./containers/pages/Checkout/Checkout";
 import Intro from "./containers/pages/Intro/Intro";
 import Login from "./containers/pages/Login/Login";
+import Product from "./containers/pages/Product/Product";
 
 
 
@@ -37,6 +38,7 @@ function App() {
   }, []);
   return (
     <div className="App">
+    <BrowserRouter>
       <Router>
         <Navbar />
         <div>
@@ -44,6 +46,7 @@ function App() {
             <Route exact path="/RetroLuxe-Co.LLC" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/category" component={Category} />
+            <Route path="/product/:id" component={Product} />
             <Route exact path="/fqa" component={FQA} />
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/post" component={Post} />
@@ -56,10 +59,11 @@ function App() {
             <Route exact path="/detail" component={Detail} />
             <Route exact path="/cart" component={Cart} />
             <Route exact path="/checkout" component={Checkout} />
-            <Route exact path="/" component={Home} />
+            <Route path="/" component={Home} exact />
           </Switch>
         </div>
       </Router>
+      </BrowserRouter>
     </div>
   );
 }

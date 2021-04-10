@@ -1,5 +1,7 @@
 # RetroLuxe-Co.LLC
 
+At the moment, Retro Luxe is on hold for company reasons. Hopefully they will get back up and running soon.
+
 Retro Luxe &amp; Co. LLC
 </br>
 [🎧 Website 🎧](https://retroluxesite.herokuapp.com/)

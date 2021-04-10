@@ -14,12 +14,6 @@ import image8 from "./img/product/0915494643_1_1_1.jpg";
 import image18 from "./img/product/0915494643_2_1_1.jpg";
 import image9 from "./img/product/0931168712_1_1_1.jpg";
 import image19 from "./img/product/0931168712_2_1_1.jpg";
-import image20 from "./img/product/0949168513_1_1_1.jpg";
-import image200 from "./img/product/0949168513_2_1_1.jpg";
-import image21 from "./img/product/0950354513_1_1_1.jpg";
-import image201 from "./img/product/0950354513_2_1_1.jpg";
-import image22 from "./img/product/0987188250_1_1_1.jpg";
-import image202 from "./img/product/0987188250_2_1_1.jpg";
 
 const data = {
   products: [

@@ -6,6 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Carousel from "../../ImgCarousel/Carousel";
 // import Menu from "../../../components/Menu/Menu";
 import Logo from "../../logoCarousel/Logo";
+import Product from "../../../components/Product/Product"
 import "./Home.css";
 import Footer from "../../../components/Footer/Footer";
 import img from "../../../img/product/category-men.jpg";
@@ -56,57 +57,7 @@ class Home extends Component {
       <>
         <div className="row">
           {data.products.map((product) => (
-            <div key={product._id} className="col-sm-3">
-              <div className="card">
-                <a href={`/product/${product.id}`}>
-                  <h2>{product.name}</h2>
-                </a>
-                <div className="card-body">
-                  <a href={`/product/${product.id}`}>
-                    <img
-                      className="medium"
-                      src={product.image}
-                      alt={product.name}
-                      onMouseEnter={() => {
-                        this.setState({
-                          img: img101,
-                        });
-                      }}
-                      onMouseOut={() => {
-                        this.setState({
-                          img: img10,
-                        });
-                      }}
-                    />
-                  </a>
-                  <h5 className="card-title">{product.gender}</h5>
-                  <p className="card-text">
-                  {product.description}
-                  </p>
-                  <a href={`/product/${product.id}`} className="btn btn-primary">
-                    Shop Now
-                  </a>
-                  <div className="rating">
-                    <span>
-                      <i className="fa fa-star"></i>
-                    </span>
-                    <span>
-                      <i className="fa fa-star"></i>
-                    </span>
-                    <span>
-                      <i className="fa fa-star"></i>
-                    </span>
-                    <span>
-                      <i className="fa fa-star"></i>
-                    </span>
-                    <span>
-                      <i className="fa fa-star"></i>
-                    </span>
-                  </div>
-                  <div className="price">${product.price}</div>
-                </div>
-              </div>
-            </div>
+            <Product key={product._id} product={product}></Product>
           ))}
         </div>
         <Footer />

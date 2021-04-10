@@ -1,5 +1,5 @@
-import image1 from "./img/product/0027211800_1_2_1.jpg"
-import image11 from "./img/product/0027211800_2_1_1.jpg"
+import image1 from "./img/product/0027211800_1_2_1.jpg";
+import image11 from "./img/product/0027211800_2_1_1.jpg";
 import image3 from "./img/product/0144074800_1_1_1.jpg";
 import image13 from "./img/product/0144074800_2_1_1.jpg";
 import image4 from "./img/product/0364326148_1_1_1.jpg";
@@ -21,8 +21,6 @@ import image201 from "./img/product/0950354513_2_1_1.jpg";
 import image22 from "./img/product/0987188250_1_1_1.jpg";
 import image202 from "./img/product/0987188250_2_1_1.jpg";
 
-
-
 const data = {
   products: [
     {
@@ -39,6 +37,7 @@ const data = {
       new: false,
       description: "High Riders",
       rating: 5,
+      numReviews: 75,
       bin_location: 1,
     },
     {
@@ -55,6 +54,7 @@ const data = {
       new: false,
       description: "short cut",
       rating: 3,
+      numReviews: 45,
       bin_location: 2,
     },
     {
@@ -70,7 +70,8 @@ const data = {
       sale: true,
       new: false,
       description: "nice fit",
-      rating: 3,
+      rating: 2,
+      numReviews: 20,
       bin_location: 2,
     },
     {
@@ -86,7 +87,8 @@ const data = {
       sale: true,
       new: false,
       description: "short cut",
-      rating: 3,
+      rating: 1,
+      numReviews: 59,
       bin_location: 2,
     },
     {
@@ -102,7 +104,8 @@ const data = {
       sale: true,
       new: false,
       description: "9in",
-      rating: 3,
+      rating: 3.5,
+      numReviews: 58,
       bin_location: 2,
     },
     {
@@ -119,6 +122,7 @@ const data = {
       new: false,
       description: "in style",
       rating: 3,
+      numReviews: 5,
       bin_location: 2,
     },
     {
@@ -134,7 +138,8 @@ const data = {
       sale: true,
       new: false,
       description: "to die for",
-      rating: 3,
+      rating: 2,
+      numReviews: 8,
       bin_location: 2,
     },
     {
@@ -150,7 +155,8 @@ const data = {
       sale: true,
       new: false,
       description: "matches everything",
-      rating: 3,
+      rating: 5,
+      numReviews: 19,
       bin_location: 2,
     },
   ],

@@ -65,7 +65,7 @@ class Home extends Component {
                   <a href={`/product/${product.id}`}>
                     <img
                       className="medium"
-                      src={this.state.img}
+                      src={product.image}
                       alt={product.name}
                       onMouseEnter={() => {
                         this.setState({
@@ -79,13 +79,12 @@ class Home extends Component {
                       }}
                     />
                   </a>
-                  <h5 className="card-title">Special title treatment</h5>
+                  <h5 className="card-title">{product.gender}</h5>
                   <p className="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
+                  {product.description}
                   </p>
                   <a href={`/product/${product.id}`} className="btn btn-primary">
-                    Go somewhere
+                    Shop Now
                   </a>
                   <div className="rating">
                     <span>

@@ -1,3 +1,28 @@
+import image1 from "./img/product/0027211800_1_2_1.jpg"
+import image11 from "./img/product/0027211800_2_1_1.jpg"
+import image3 from "./img/product/0144074800_1_1_1.jpg";
+import image13 from "./img/product/0144074800_2_1_1.jpg";
+import image4 from "./img/product/0364326148_1_1_1.jpg";
+import image14 from "./img/product/0364326148_2_1_1.jpg";
+import image5 from "./img/product/0364326800_1_1_1.jpg";
+import image15 from "./img/product/0364326800_2_1_1.jpg";
+import image6 from "./img/product/0365115800_1_2_1.jpg";
+import image16 from "./img/product/0365115800_2_1_1.jpg";
+import image7 from "./img/product/0907168607_1_1_1.jpg";
+import image17 from "./img/product/0907168607_2_1_1.jpg";
+import image8 from "./img/product/0915494643_1_1_1.jpg";
+import image18 from "./img/product/0915494643_2_1_1.jpg";
+import image9 from "./img/product/0931168712_1_1_1.jpg";
+import image19 from "./img/product/0931168712_2_1_1.jpg";
+import image20 from "./img/product/0949168513_1_1_1.jpg";
+import image200 from "./img/product/0949168513_2_1_1.jpg";
+import image21 from "./img/product/0950354513_1_1_1.jpg";
+import image201 from "./img/product/0950354513_2_1_1.jpg";
+import image22 from "./img/product/0987188250_1_1_1.jpg";
+import image202 from "./img/product/0987188250_2_1_1.jpg";
+
+
+
 const data = {
   products: [
     {
@@ -8,7 +33,8 @@ const data = {
       price: 30,
       type: "Pants",
       gender: "Female",
-      image: "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+      image: image1,
+      image1: image11,
       sale: true,
       new: false,
       description: "High Riders",
@@ -23,7 +49,8 @@ const data = {
       size: 7,
       type: "jacket",
       gender: "male",
-      image: "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+      image: image3,
+      image1: image13,
       sale: true,
       new: false,
       description: "short cut",
@@ -38,10 +65,11 @@ const data = {
       size: 4,
       type: "shirt",
       gender: "male",
-      image: "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+      image: image4,
+      image1: image14,
       sale: true,
       new: false,
-      description: "short cut",
+      description: "nice fit",
       rating: 3,
       bin_location: 2,
     },
@@ -53,7 +81,8 @@ const data = {
       size: 4,
       type: "shirt",
       gender: "male",
-      image: "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+      image: image5,
+      image1: image15,
       sale: true,
       new: false,
       description: "short cut",
@@ -68,10 +97,11 @@ const data = {
       size: 4,
       type: "shirt",
       gender: "male",
-      image: "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+      image: image6,
+      image1: image16,
       sale: true,
       new: false,
-      description: "short cut",
+      description: "9in",
       rating: 3,
       bin_location: 2,
     },
@@ -83,10 +113,11 @@ const data = {
       size: 4,
       type: "shirt",
       gender: "male",
-      image: "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+      image: image7,
+      image1: image17,
       sale: true,
       new: false,
-      description: "short cut",
+      description: "in style",
       rating: 3,
       bin_location: 2,
     },
@@ -98,10 +129,11 @@ const data = {
       size: 4,
       type: "shirt",
       gender: "male",
-      image: "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+      image: image8,
+      image1: image18,
       sale: true,
       new: false,
-      description: "short cut",
+      description: "to die for",
       rating: 3,
       bin_location: 2,
     },
@@ -113,10 +145,11 @@ const data = {
       size: 4,
       type: "shirt",
       gender: "male",
-      image: "/client/src/img/product/category-jeans-colour-bg-2/jpg",
+      image: image9,
+      image1: image19,
       sale: true,
       new: false,
-      description: "short cut",
+      description: "matches everything",
       rating: 3,
       bin_location: 2,
     },

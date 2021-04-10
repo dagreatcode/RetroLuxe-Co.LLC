@@ -41,6 +41,9 @@ app.get("/api/config", (req, res) => {
 
 app.get("/*", (req, res) => {
   res.sendFile(path.json(__dirname, "./client/build/index.html"));
+  if (err) {
+    res.status(500).send(err)
+  }
 });
 
 app.post("/contact", (req, res) => {

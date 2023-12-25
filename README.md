@@ -11,6 +11,10 @@ Retro Luxe &amp; Co. LLC
 
 </br>
 
+npm audit fix --force
+"start": "react-scripts --openssl-legacy-provider start"
+npm i react-scripts@latest
+
 [![Website dagreatcode.github.io/RetroLuxe-Co.LLC/](https://img.shields.io/website-up-down-green-red/https/retroluxesite.herokuapp.com.svg)](https://retroluxesite.herokuapp.com/)
 </br>
 
